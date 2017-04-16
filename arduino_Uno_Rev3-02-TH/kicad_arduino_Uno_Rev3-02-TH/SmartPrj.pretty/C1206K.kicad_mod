@@ -1,0 +1,69 @@
+(module C1206K
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Ceramic Chip Capacitor KEMET 1206 Reflow solder; Metric Code Size 3216")
+ (fp_text reference >NAME
+  (at 1.036762 -1.608000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.081280)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.302857 1.592000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.081280)
+   )
+  )
+ )
+ (fp_line
+  (start -1.525000 -0.750000)
+  (end 1.525000 -0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.525000 0.750000)
+  (end -1.525000 0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.600000 -0.800000)
+   (xy -1.100000 -0.800000)
+   (xy -1.100000 0.800000)
+   (xy -1.600000 0.800000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 1.100000 -0.800000)
+   (xy 1.600000 -0.800000)
+   (xy 1.600000 0.800000)
+   (xy 1.100000 0.800000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -1.500000 0.000000 0.000000)
+  (size 1.500000 2.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 1.500000 0.000000 0.000000)
+  (size 1.500000 2.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

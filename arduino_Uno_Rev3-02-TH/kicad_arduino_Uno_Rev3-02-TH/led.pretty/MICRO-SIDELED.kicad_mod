@@ -1,0 +1,151 @@
+(module "MICRO-SIDELED"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Hyper Micro SIDELED®; Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY Y876.pdf")
+ (fp_text reference >NAME
+  (at -1.905000 -1.390953 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.905000 -1.723572 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start 0.650000 -1.100000)
+  (end -0.100000 -1.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.100000 -1.100000)
+  (end -0.350000 -1.000000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.350000 -1.000000)
+  (end -0.350000 0.900000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.350000 0.900000)
+  (end -0.100000 1.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.100000 1.100000)
+  (end 0.650000 1.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.650000 1.100000)
+  (end 0.650000 -1.100000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.600000 -0.900000)
+  (end 0.250000 -0.700000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.250000 -0.700000)
+  (end 0.250000 0.700000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.250000 0.700000)
+  (end 0.600000 0.900000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.400000 -1.800000)
+   (xy 0.400000 -1.800000)
+   (xy 0.400000 -1.100000)
+   (xy -0.400000 -1.100000)
+  )
+  (layer F.Mask)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.400000 1.100000)
+   (xy 0.400000 1.100000)
+   (xy 0.400000 1.800000)
+   (xy -0.400000 1.800000)
+  )
+  (layer F.Mask)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.350000 1.150000)
+   (xy 0.350000 1.150000)
+   (xy 0.350000 1.750000)
+   (xy -0.350000 1.750000)
+  )
+  (layer F.Paste)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.350000 -1.750000)
+   (xy 0.350000 -1.750000)
+   (xy 0.350000 -1.150000)
+   (xy -0.350000 -1.150000)
+  )
+  (layer F.Paste)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.125000 -1.750000)
+   (xy 0.125000 -1.750000)
+   (xy 0.125000 -1.125000)
+   (xy -0.125000 -1.125000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.125000 1.125000)
+   (xy 0.125000 1.125000)
+   (xy 0.125000 1.750000)
+   (xy -0.125000 1.750000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad A smd rect
+  (at 0.000000 -1.950000 0.000000)
+  (size 1.600000 1.600000)
+  (drill 0.000000)
+  (layers F.Cu)
+ )
+ (pad C smd rect
+  (at 0.000000 1.950000 0.000000)
+  (size 1.600000 1.600000)
+  (drill 0.000000)
+  (layers F.Cu)
+ )
+)

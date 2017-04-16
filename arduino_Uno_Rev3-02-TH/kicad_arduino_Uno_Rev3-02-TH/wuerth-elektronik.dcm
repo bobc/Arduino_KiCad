@@ -1,0 +1,31 @@
+EESchema-DOCLIB Version 2.3
+#
+$CMP WE-CBF_0603
+D SMD EMI Suppression Ferrite Beads; ; - excellent anti-EMI properties ; - low DCR; - impedances till 3000 ohms; - rated current up to 6 A
+$ENDCMP
+#
+$CMP WE-CBF_0402
+D SMD EMI Suppression Ferrite Beads; ; - excellent anti-EMI properties ; - low DCR; - impedances till 3000 ohms; - rated current up to 6 A
+$ENDCMP
+#
+$CMP WE-CBF_0805
+D SMD EMI Suppression Ferrite Beads; ; - excellent anti-EMI properties ; - low DCR; - impedances till 3000 ohms; - rated current up to 6 A
+$ENDCMP
+#
+$CMP WE-CBF_1206
+D SMD EMI Suppression Ferrite Beads; ; - excellent anti-EMI properties ; - low DCR; - impedances till 3000 ohms; - rated current up to 6 A
+$ENDCMP
+#
+$CMP WE-CBF_1210
+D SMD EMI Suppression Ferrite Beads; ; - excellent anti-EMI properties ; - low DCR; - impedances till 3000 ohms; - rated current up to 6 A
+$ENDCMP
+#
+$CMP WE-CBF_1806
+D SMD EMI Suppression Ferrite Beads; ; - excellent anti-EMI properties ; - low DCR; - impedances till 3000 ohms; - rated current up to 6 A
+$ENDCMP
+#
+$CMP WE-CBF_1812
+D SMD EMI Suppression Ferrite Beads; ; - excellent anti-EMI properties ; - low DCR; - impedances till 3000 ohms; - rated current up to 6 A
+$ENDCMP
+#
+#End Library

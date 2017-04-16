@@ -1,0 +1,133 @@
+(module IRF36
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Vishay Dale Inductor; Source: www.vishay.com .. irf36.pdf")
+ (fp_text reference >NAME
+  (at 0.120953 -3.175000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.453572 0.000000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start 7.825000 0.000000)
+  (end 8.890000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_line
+  (start -7.915000 0.000000)
+  (end -8.890000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_arc
+  (start -2.657000 -1.632000)
+  (end -2.925000 -1.639000)
+  (angle 90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -2.669500 1.669500)
+  (end -2.925000 1.664000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 2.669500 1.669500)
+  (end 2.675000 1.925000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 2.669500 -1.644500)
+  (end 2.675000 -1.900000)
+  (angle 90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -2.925000 1.664000)
+  (end -7.950000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -7.950000 0.000000)
+  (end -2.925000 -1.639000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.675000 -1.900000)
+  (end -2.650000 -1.900000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.675000 1.925000)
+  (end -2.675000 1.925000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.925000 1.664000)
+  (end 7.950000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 7.950000 0.000000)
+  (end 2.925000 -1.639000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy 7.000000 -0.304800)
+   (xy 8.050000 -0.304800)
+   (xy 8.050000 0.304800)
+   (xy 7.000000 0.304800)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -8.050000 -0.304800)
+   (xy -7.000000 -0.304800)
+   (xy -7.000000 0.304800)
+   (xy -8.050000 0.304800)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad 1 thru_hole circle
+  (at -8.890000 0.000000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 1.000000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 8.890000 0.000000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 1.000000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

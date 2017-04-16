@@ -1,0 +1,138 @@
+info: Conversion report on 2017-04-16 19:32:57
+info: 
+info: Parameters:
+info: Input  : arduino_Uno_Rev3-02-TH.sch
+info: Output : kicad_arduino_Uno_Rev3-02-TH
+info: 
+info: Log:
+info: Reading schematic file C:\git_bobc\Arduino_KiCad\arduino_Uno_Rev3-02-TH\arduino_Uno_Rev3-02-TH.sch
+info: Processing Library: supply1
+info: Processing Library: rcl
+note: 0204/5 is renamed to 0204_5
+note: 0204/7 is renamed to 0204_7
+note: 0207/10 is renamed to 0207_10
+note: 0207/12 is renamed to 0207_12
+note: 0207/15 is renamed to 0207_15
+note: 0207/2V is renamed to 0207_2V
+note: 0207/5V is renamed to 0207_5V
+note: 0207/7 is renamed to 0207_7
+note: A/3216-18R is renamed to A_3216-18R
+note: A/3216-18W is renamed to A_3216-18W
+note: B/3528-21R is renamed to B_3528-21R
+note: B/3528-21W is renamed to B_3528-21W
+note: C/6032-28R is renamed to C_6032-28R
+note: C/6032-28W is renamed to C_6032-28W
+note: D/7343-31R is renamed to D_7343-31R
+note: D/7343-31W is renamed to D_7343-31W
+note: E/7260-38R is renamed to E_7260-38R
+note: E/7260-38W is renamed to E_7260-38W
+note: R/2012-12R is renamed to R_2012-12R
+note: R/2012-12W is renamed to R_2012-12W
+info: Processing Library: diode
+info: Processing Library: led
+info: Processing Library: linear
+info: Processing Library: SmartPrj
+note: 0309/10 is renamed to 0309_10
+note: 0309/12 is renamed to 0309_12
+note: 0411/12 is renamed to 0411_12
+note: 0411/15 is renamed to 0411_15
+note: 0414/15 is renamed to 0414_15
+note: P0613/15 is renamed to P0613_15
+note: 0617/17 is renamed to 0617_17
+note: 0617/22 is renamed to 0617_22
+note: P0817/22 is renamed to P0817_22
+note: 0922/22 is renamed to 0922_22
+note: RDH/15 is renamed to RDH_15
+note: V234/12 is renamed to V234_12
+note: V235/17 is renamed to V235_17
+note: 0204/5 is renamed to 0204_5
+note: 0204/7 is renamed to 0204_7
+note: 0207/2V is renamed to 0207_2V
+note: 0207/5V is renamed to 0207_5V
+note: 0207/7 is renamed to 0207_7
+note: 0207/10 is renamed to 0207_10
+note: 0207/12 is renamed to 0207_12
+note: 0207/15 is renamed to 0207_15
+note: 1X10/90 is renamed to 1X10_90
+note: 2X02/90 is renamed to 2X02_90
+info: Processing Library: zetex
+info: Processing Library: jumper
+info: Processing Library: varistor
+note: CT/CN0402 is renamed to CT_CN0402
+note: CT/CN0603 is renamed to CT_CN0603
+note: CT/CN0805 is renamed to CT_CN0805
+note: CT/CN1206 is renamed to CT_CN1206
+note: CT/CN1210 is renamed to CT_CN1210
+note: CT/CN1812 is renamed to CT_CN1812
+note: CT/CN2220 is renamed to CT_CN2220
+info: Processing Library: wuerth-elektronik
+info: Processing Library: resistor-dil
+info: Processing schematic sheet: 1
+note: ICSP is renamed ICSP2
+note: IOL is renamed IOL1
+note: IOH is renamed IOH1
+note: AD is renamed AD1
+note: ON is renamed ON1
+note: RX is renamed RX1
+note: TX is renamed TX1
+note: L is renamed L2
+note: GROUND is renamed GROUND1
+note: RESET-EN is renamed RESET-EN1
+note: RESET is renamed RESET1
+note: POWER is renamed POWER1
+info: Writing schematic kicad_arduino_Uno_Rev3-02-TH\arduino_Uno_Rev3-02-TH.sch
+info: Reading board file C:\git_bobc\Arduino_KiCad\arduino_Uno_Rev3-02-TH\arduino_Uno_Rev3-02-TH.brd
+info: Processing Library: rcl
+info: Processing Library: diode
+info: Processing Library: led
+info: Processing Library: linear
+info: Processing Library: SmartPrj
+info: Processing Library: zetex
+info: Processing Library: jumper
+info: Processing Library: varistor
+note: CT/CN0603 is renamed to CT_CN0603
+info: Processing Library: wuerth-elektronik
+info: Processing Library: resistor-dil
+warning: unsupported layer: 214 214bmp in 
+note: loose via converted to pad at 2.54,21.59 net=+5V
+note: loose via converted to pad at 5.08,20.32 net=+5V
+note: loose via converted to pad at 6.985,24.13 net=+5V
+note: loose via converted to pad at 2.54,13.335 net=+5V
+note: loose via converted to pad at 5.08,14.605 net=+5V
+note: loose via converted to pad at 2.54,17.399 net=+5V
+note: loose via converted to pad at 8.89,13.335 net=+5V
+note: loose via converted to pad at 7.62,15.24 net=+5V
+note: loose via converted to pad at 7.62,19.685 net=+5V
+note: loose via converted to pad at 29.21,6.223 net=GND
+note: loose via converted to pad at 27.178,14.224 net=GND
+note: loose via converted to pad at 16.6624,6.8834 net=GND
+note: loose via converted to pad at 30.6324,34.3154 net=GND
+note: loose via converted to pad at 54.61,49.149 net=GND
+note: loose via converted to pad at 30.353,37.6174 net=GND
+note: loose via converted to pad at 11.43,12.7 net=GND
+note: loose via converted to pad at 41.1734,17.9324 net=GND
+note: loose via converted to pad at 51.435,21.59 net=GND
+note: loose via converted to pad at 29.972,31.496 net=GND
+note: loose via converted to pad at 43.688,50.8 net=GND
+note: loose via converted to pad at 48.26,2.54 net=GND
+note: loose via converted to pad at 59.436,27.94 net=GND
+note: loose via converted to pad at 21.4884,2.8194 net=GND
+note: loose via converted to pad at 67.2084,10.6934 net=GND
+note: loose via converted to pad at 64.6684,47.3964 net=GND
+note: loose via converted to pad at 12.065,24.765 net=GND
+note: loose via converted to pad at 67.2338,17.7038 net=GND
+note: loose via converted to pad at 23.114,21.717 net=GND
+note: loose via converted to pad at 10.414,49.911 net=GND
+note: loose via converted to pad at 47.1424,29.2354 net=GND
+note: loose via converted to pad at 18.923,26.162 net=GND
+note: loose via converted to pad at 43.3324,31.5214 net=GND
+note: loose via converted to pad at 21.971,11.557 net=GND
+note: loose via converted to pad at 14.097,17.145 net=GND
+note: loose via converted to pad at 64.6684,40.5384 net=GND
+warning: unsupported layer: 19 Unrouted in 
+warning: unsupported layer: 50 ReferenceLS in 
+info: Writing board kicad_arduino_Uno_Rev3-02-TH\arduino_Uno_Rev3-02-TH.kicad_pcb
+info: Writing project file kicad_arduino_Uno_Rev3-02-TH\arduino_Uno_Rev3-02-TH.pro
+info: 
+info: Done
+info: *** See report file for 0 errors, 3 warnings, 98 notes ***

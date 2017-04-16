@@ -1,0 +1,210 @@
+(module "OSRAM-SIDELED"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Super SIDELED® High-Current LED; LG A672, LP A672 ; Source: http://www.osram.convergy.de/ ... LG_LP_A672.pdf (2004.05.13)")
+ (fp_text reference >NAME
+  (at -3.175000 -0.755953 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 3.175000 -1.088572 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text user C
+  (at 0.000000 2.540000 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text user A
+  (at 0.000000 -3.084286 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -1.850000 2.050000)
+  (end -1.850000 0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.850000 0.750000)
+  (end -1.700000 0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.700000 0.750000)
+  (end -1.700000 -0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.700000 -0.750000)
+  (end -1.850000 -0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.850000 -0.750000)
+  (end -1.850000 -2.050000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.850000 -2.050000)
+  (end 0.900000 -2.050000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.900000 -2.050000)
+  (end 0.900000 2.050000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.900000 2.050000)
+  (end -1.850000 2.050000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.900000 2.050000)
+  (end 1.050000 2.050000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.050000 2.050000)
+  (end 1.850000 1.850000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.850000 1.850000)
+  (end 1.850000 -1.850000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.850000 -1.850000)
+  (end 1.050000 -2.050000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.050000 -2.050000)
+  (end 0.900000 -2.050000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.050000 -2.050000)
+  (end 1.050000 2.050000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start -0.450000 0.000000)
+  (end -0.550000 0.900000)
+  (angle 167.319600)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.550000 0.900000)
+  (end 0.850000 1.200000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.550000 -0.900000)
+  (end 0.850000 -1.200000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -2.100000 0.400000)
+   (xy 2.100000 0.400000)
+   (xy 2.100000 2.200000)
+   (xy -2.100000 2.200000)
+  )
+  (layer F.Mask)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -2.100000 -2.200000)
+   (xy 2.100000 -2.200000)
+   (xy 2.100000 -0.400000)
+   (xy -2.100000 -0.400000)
+  )
+  (layer F.Mask)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.900000 0.600000)
+   (xy 1.900000 0.600000)
+   (xy 1.900000 2.100000)
+   (xy -1.900000 2.100000)
+  )
+  (layer F.Paste)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.900000 -2.100000)
+   (xy 1.900000 -2.100000)
+   (xy 1.900000 -0.600000)
+   (xy -1.900000 -0.600000)
+  )
+  (layer F.Paste)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.850000 1.000000)
+   (xy -0.700000 1.000000)
+   (xy -0.700000 2.050000)
+   (xy -1.850000 2.050000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad C smd rect
+  (at 0.000000 2.500000 0.000000)
+  (size 4.000000 4.000000)
+  (drill 0.000000)
+  (layers F.Cu)
+ )
+ (pad A smd rect
+  (at 0.000000 -2.500000 0.000000)
+  (size 4.000000 4.000000)
+  (drill 0.000000)
+  (layers F.Cu)
+ )
+)

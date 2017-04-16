@@ -1,0 +1,103 @@
+(module R3225
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "RESISTOR; chip")
+ (fp_text reference >NAME
+  (at 1.898953 -2.286000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.231572 2.286000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -0.913000 -1.219000)
+  (end 0.939000 -1.219000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.913000 1.219000)
+  (end 0.939000 1.219000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -2.473000 -1.483000)
+  (end 2.473000 -1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.473000 -1.483000)
+  (end 2.473000 1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.473000 1.483000)
+  (end -2.473000 1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.473000 1.483000)
+  (end -2.473000 -1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.651000 -1.291800)
+   (xy -0.900900 -1.291800)
+   (xy -0.900900 1.308100)
+   (xy -1.651000 1.308100)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.914400 -1.291800)
+   (xy 1.664500 -1.291800)
+   (xy 1.664500 1.308100)
+   (xy 0.914400 1.308100)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.300000 -1.000000)
+   (xy 0.300000 -1.000000)
+   (xy 0.300000 1.000000)
+   (xy -0.300000 1.000000)
+  )
+  (layer F.Adhes)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -1.400000 0.000000 0.000000)
+  (size 1.600000 2.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 1.400000 0.000000 0.000000)
+  (size 1.600000 2.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

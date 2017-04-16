@@ -1,0 +1,11 @@
+EESchema-DOCLIB Version 2.3
+#
+$CMP +5V
+D SUPPLY SYMBOL
+$ENDCMP
+#
+$CMP GND
+D SUPPLY SYMBOL
+$ENDCMP
+#
+#End Library

@@ -1,0 +1,113 @@
+(module "DO-214AC"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "SURFACE MOUNT GENERAL RECTIFIER JEDEC DO-214AC molded platic body; Method 2026; Source: http://www.kingtronics.com/SMD_M7/M7_SMD_4007.pdf")
+ (fp_text reference >NAME
+  (at 0.755953 -2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.088572 2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -2.150000 -1.300000)
+  (end 2.150000 -1.300000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 2.150000 -1.300000)
+  (end 2.150000 1.300000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 2.150000 1.300000)
+  (end -2.150000 1.300000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -2.150000 1.300000)
+  (end -2.150000 -1.300000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -1.035000 -1.300000)
+  (end 1.025000 -1.300000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.025000 1.300000)
+  (end -1.035000 1.300000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_poly
+  (pts
+   (xy -2.825000 -1.100000)
+   (xy -2.175000 -1.100000)
+   (xy -2.175000 1.100000)
+   (xy -2.825000 1.100000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 2.175000 -1.100000)
+   (xy 2.825000 -1.100000)
+   (xy 2.825000 1.100000)
+   (xy 2.175000 1.100000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.065000 -1.225000)
+   (xy -0.390000 -1.225000)
+   (xy -0.390000 1.225000)
+   (xy -1.065000 1.225000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.750000 -1.225000)
+   (xy -1.075000 -1.225000)
+   (xy -1.075000 1.225000)
+   (xy -1.750000 1.225000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad C smd rect
+  (at -2.025000 0.000000 0.000000)
+  (size 1.800000 2.400000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad A smd rect
+  (at 2.025000 0.000000 0.000000)
+  (size 1.800000 2.400000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

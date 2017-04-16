@@ -1,0 +1,91 @@
+(module "D_7343-31R"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Chip Capacitor Type KEMET D / EIA 7343-21KEMET V / EIA 7343-20, KEMET X / EIA 7343-43 reflow solder")
+ (fp_text reference >NAME
+  (at -0.354047 -2.935000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -0.021429 2.940000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -3.450000 -2.100000)
+  (end 3.450000 -2.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.450000 -2.100000)
+  (end 3.450000 2.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.450000 2.100000)
+  (end -3.450000 2.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -3.450000 2.100000)
+  (end -3.450000 -2.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -3.650000 -1.200000)
+   (xy -3.500000 -1.200000)
+   (xy -3.500000 1.200000)
+   (xy -3.650000 1.200000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 3.500000 -1.200000)
+   (xy 3.650000 -1.200000)
+   (xy 3.650000 1.200000)
+   (xy 3.500000 1.200000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 2.675000 -2.125000)
+   (xy 3.150000 -2.125000)
+   (xy 3.150000 2.125000)
+   (xy 2.675000 2.125000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad + smd rect
+  (at 3.175000 0.000000 0.000000)
+  (size 2.550000 2.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad - smd rect
+  (at -3.175000 0.000000 0.000000)
+  (size 2.550000 2.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

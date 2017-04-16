@@ -1,0 +1,171 @@
+(module "Q62902-B156"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "LED HOLDER; Siemens")
+ (fp_text reference >NAME
+  (at -0.514047 -4.724400 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -0.156029 4.724400 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user +
+  (at -2.927047 2.794000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.142240)
+   )
+  )
+ )
+ (fp_text user -
+  (at 3.422952 2.794000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.142240)
+   )
+  )
+ )
+ (fp_line
+  (start 2.540000 1.905000)
+  (end 2.540000 -1.905000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -1.143000 0.000000)
+  (angle 90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end 0.000000 1.143000)
+  (angle -90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -1.651000 0.000000)
+  (angle 90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end 0.000000 1.651000)
+  (angle -90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -2.159000 0.000000)
+  (angle 90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.054000 0.054000)
+  (end 0.053900 2.212900)
+  (angle -90.005310)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.540000 -3.810000)
+  (end 3.810000 -2.540000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.540000 -3.810000)
+  (end -3.810000 -3.810000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -3.810000 3.810000)
+  (end -3.810000 -3.810000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 3.810000 -2.540000)
+  (end 3.810000 3.810000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -3.810000 3.810000)
+  (end -2.540000 3.810000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -2.540000 3.302000)
+  (end -2.540000 3.810000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 3.810000 3.810000)
+  (end 2.540000 3.810000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.540000 3.302000)
+  (end 2.540000 3.810000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.540000 3.302000)
+  (end -2.540000 3.302000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 2.540000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 3.175000 0.000000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (pad A thru_hole oval
+  (at -1.270000 0.000000 0.000000)
+  (size 1.524000 3.048000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad K thru_hole oval
+  (at 1.270000 0.000000 0.000000)
+  (size 1.524000 3.048000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

@@ -1,0 +1,101 @@
+(module GF1
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "GF1; General Semiconductor")
+ (fp_text reference >NAME
+  (at 0.755953 -2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.088572 2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -2.240000 -1.320000)
+  (end 2.240000 -1.320000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 2.240000 -1.320000)
+  (end 2.240000 1.320000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 2.240000 1.320000)
+  (end -2.240000 1.320000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start -2.240000 1.320000)
+  (end -2.240000 -1.320000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_poly
+  (pts
+   (xy -2.860000 -0.840000)
+   (xy -2.320000 -0.840000)
+   (xy -2.320000 0.840000)
+   (xy -2.860000 0.840000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 2.340000 -0.840000)
+   (xy 2.860000 -0.840000)
+   (xy 2.860000 0.840000)
+   (xy 2.340000 0.840000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.900000 -1.050000)
+   (xy -1.250000 -1.050000)
+   (xy -1.250000 1.050000)
+   (xy -1.900000 1.050000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.400000 -1.050000)
+   (xy -1.250000 -1.050000)
+   (xy -1.250000 1.050000)
+   (xy -1.400000 1.050000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad C smd rect
+  (at -2.120000 0.000000 0.000000)
+  (size 1.320000 1.680000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad A smd rect
+  (at 1.870000 0.000000 0.000000)
+  (size 1.850000 1.680000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

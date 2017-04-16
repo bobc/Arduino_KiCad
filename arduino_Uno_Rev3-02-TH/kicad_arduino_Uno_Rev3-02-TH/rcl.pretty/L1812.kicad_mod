@@ -1,0 +1,69 @@
+(module L1812
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "INDUCTOR; chip")
+ (fp_text reference >NAME
+  (at 1.390953 -2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.723572 2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -1.473200 -1.600200)
+  (end 1.473200 -1.600200)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.447800 1.600200)
+  (end 1.473200 1.600200)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -2.387600 -1.649000)
+   (xy -1.437600 -1.649000)
+   (xy -1.437600 1.651000)
+   (xy -2.387600 1.651000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 1.447800 -1.649000)
+   (xy 2.397800 -1.649000)
+   (xy 2.397800 1.651000)
+   (xy 1.447800 1.651000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -1.950000 0.000000 0.000000)
+  (size 1.900000 3.400000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 1.950000 0.000000 0.000000)
+  (size 1.900000 3.400000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

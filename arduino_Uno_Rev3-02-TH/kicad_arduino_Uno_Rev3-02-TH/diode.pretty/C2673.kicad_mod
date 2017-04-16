@@ -1,0 +1,145 @@
+(module C2673
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "DIODE; diameter 5.2 mm, horizontal, grid 15.24 mm")
+ (fp_text reference >NAME
+  (at -1.403047 -3.683000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.469572 1.524000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start 4.826000 2.667000)
+  (end -4.826000 2.667000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 4.826000 2.667000)
+  (end 4.826000 -2.667000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -4.826000 -2.667000)
+  (end 4.826000 -2.667000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -4.826000 -2.667000)
+  (end -4.826000 2.667000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 7.620000 0.000000)
+  (end 6.096000 0.000000)
+  (layer F.Fab)
+  (width 1.270000)
+ )
+ (fp_line
+  (start -7.620000 0.000000)
+  (end -6.096000 0.000000)
+  (layer F.Fab)
+  (width 1.270000)
+ )
+ (fp_line
+  (start -0.635000 0.000000)
+  (end 0.000000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.016000 -0.635000)
+  (end 1.016000 0.635000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.016000 0.635000)
+  (end 0.000000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.000000 0.000000)
+  (end 1.524000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.000000 0.000000)
+  (end 1.016000 -0.635000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.000000 -0.635000)
+  (end 0.000000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.000000 0.000000)
+  (end 0.000000 0.635000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy -3.937000 -2.667000)
+   (xy -2.540000 -2.667000)
+   (xy -2.540000 2.667000)
+   (xy -3.937000 2.667000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 4.826000 -0.635000)
+   (xy 5.969000 -0.635000)
+   (xy 5.969000 0.635000)
+   (xy 4.826000 0.635000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -5.969000 -0.635000)
+   (xy -4.826000 -0.635000)
+   (xy -4.826000 0.635000)
+   (xy -5.969000 0.635000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad A thru_hole oval
+  (at 7.620000 0.000000 0.000000)
+  (size 4.495800 2.247900)
+  (drill 1.498600)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad C thru_hole oval
+  (at -7.620000 0.000000 0.000000)
+  (size 4.495800 2.247900)
+  (drill 1.498600)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

@@ -1,0 +1,78 @@
+(module RESONATOR
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (fp_text reference >NAME
+  (at -0.527133 -1.527800 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 0.355600 0.355600)
+    (thickness 0.028448)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -0.434000 1.510200 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 0.355600 0.355600)
+    (thickness 0.028448)
+   )
+  )
+ )
+ (fp_line
+  (start -1.400000 -0.800000)
+  (end 1.400000 -0.800000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.400000 -0.800000)
+  (end 1.400000 0.800000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.400000 0.800000)
+  (end -1.400000 0.800000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.400000 0.800000)
+  (end -1.400000 -0.800000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.600000 -0.800000)
+  (end -1.600000 0.800000)
+  (layer F.SilkS)
+  (width 0.220000)
+ )
+ (fp_line
+  (start 1.600000 -0.800000)
+  (end 1.600000 0.800000)
+  (layer F.SilkS)
+  (width 0.220000)
+ )
+ (pad 1 smd rect
+  (at -1.000000 0.000000 0.000000)
+  (size 0.700000 2.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 0.000000 0.000000 0.000000)
+  (size 0.700000 2.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 3 smd rect
+  (at 1.000000 0.000000 0.000000)
+  (size 0.700000 2.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

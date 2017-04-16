@@ -1,0 +1,85 @@
+(module "TJ3-U1"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Inductor; Source: TJ-Serie Vishay.pdf")
+ (fp_text reference >NAME
+  (at -1.270000 1.784047 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.270000 1.451429 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -3.650000 -8.150000)
+  (end 3.650000 -8.150000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 3.650000 8.150000)
+  (end -3.650000 8.150000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -3.650000 8.150000)
+  (end -3.650000 1.100000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -3.650000 1.100000)
+  (end -3.650000 -1.100000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -3.650000 -1.100000)
+  (end -3.650000 -8.150000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 3.650000 -8.150000)
+  (end 3.650000 -1.100000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 3.650000 -1.100000)
+  (end 3.650000 1.100000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 3.650000 1.100000)
+  (end 3.650000 8.150000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (pad 1 thru_hole circle
+  (at -3.300000 0.000000 0.000000)
+  (size 1.408000 1.408000)
+  (drill 0.900000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 3.300000 0.000000 0.000000)
+  (size 1.408000 1.408000)
+  (drill 0.900000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

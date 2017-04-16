@@ -1,0 +1,69 @@
+(module C0603K
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Ceramic Chip Capacitor KEMET 0603 Reflow solder; Metric Code Size 1608")
+ (fp_text reference >NAME
+  (at 1.836762 -1.158000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.081280)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.102857 1.142000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.081280)
+   )
+  )
+ )
+ (fp_line
+  (start -0.725000 -0.350000)
+  (end 0.725000 -0.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.725000 0.350000)
+  (end -0.725000 0.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.800000 -0.400000)
+   (xy -0.450000 -0.400000)
+   (xy -0.450000 0.400000)
+   (xy -0.800000 0.400000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.450000 -0.400000)
+   (xy 0.800000 -0.400000)
+   (xy 0.800000 0.400000)
+   (xy 0.450000 0.400000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -0.875000 0.000000 0.000000)
+  (size 1.050000 1.080000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 0.875000 0.000000 0.000000)
+  (size 1.050000 1.080000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

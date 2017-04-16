@@ -1,0 +1,103 @@
+(module L2012C
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr INDUCTOR)
+ (fp_text reference >NAME
+  (at 1.390953 -1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.723572 1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -1.973000 -0.983000)
+  (end 1.973000 -0.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.973000 0.983000)
+  (end -1.973000 0.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.973000 0.983000)
+  (end -1.973000 -0.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.864000 -0.540000)
+  (end 0.864000 -0.540000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.864000 0.553000)
+  (end 0.864000 0.553000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.973000 -0.983000)
+  (end 1.973000 0.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.143000 -0.590300)
+   (xy -0.843000 -0.590300)
+   (xy -0.843000 0.609600)
+   (xy -1.143000 0.609600)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.838200 -0.590300)
+   (xy 1.138200 -0.590300)
+   (xy 1.138200 0.609600)
+   (xy 0.838200 0.609600)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.300000 -0.400100)
+   (xy 0.300000 -0.400100)
+   (xy 0.300000 0.400100)
+   (xy -0.300000 0.400100)
+  )
+  (layer F.Adhes)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -1.000000 0.000000 0.000000)
+  (size 1.000000 1.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 1.000000 0.000000 0.000000)
+  (size 1.000000 1.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

@@ -1,0 +1,97 @@
+(module "SOT-23"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Small Outline Transistor")
+ (fp_text reference >NAME
+  (at 1.898953 -3.937000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.231572 -2.413000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start -1.422400 -0.381000)
+  (end 1.473200 -0.381000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.473200 -0.381000)
+  (end 1.473200 0.381000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.473200 0.381000)
+  (end -1.422400 0.381000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.422400 0.381000)
+  (end -1.422400 -0.381000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy 0.787400 -0.939800)
+   (xy 1.168400 -0.939800)
+   (xy 1.168400 -0.431800)
+   (xy 0.787400 -0.431800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.143000 -0.939800)
+   (xy -0.762000 -0.939800)
+   (xy -0.762000 -0.431800)
+   (xy -1.143000 -0.431800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.177800 0.431800)
+   (xy 0.203200 0.431800)
+   (xy 0.203200 0.939800)
+   (xy -0.177800 0.939800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 3 smd rect
+  (at 0.990600 -1.016000 0.000000)
+  (size 0.787400 0.889000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at -0.939800 -1.016000 0.000000)
+  (size 0.787400 0.889000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 1 smd rect
+  (at 0.025400 1.016000 0.000000)
+  (size 0.787400 0.889000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

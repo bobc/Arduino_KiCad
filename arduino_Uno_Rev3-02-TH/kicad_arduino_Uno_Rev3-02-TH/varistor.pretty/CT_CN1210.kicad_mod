@@ -1,0 +1,81 @@
+(module CT_CN1210
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "EPCOS SMD Varistors, MLV; Standard Series; Source: www.farnell.com/datasheets/49238.pdf")
+ (fp_text reference >NAME
+  (at 1.295953 -2.135000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.628572 2.365000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -1.650000 -1.250000)
+  (end 1.650000 -1.250000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.650000 -1.250000)
+  (end 1.650000 1.250000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.650000 1.250000)
+  (end -1.650000 1.250000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.650000 1.250000)
+  (end -1.650000 -1.250000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.650000 -1.250000)
+   (xy -0.950000 -1.250000)
+   (xy -0.950000 1.250000)
+   (xy -1.650000 1.250000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.950000 -1.250000)
+   (xy 1.650000 -1.250000)
+   (xy 1.650000 1.250000)
+   (xy 0.950000 1.250000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -1.650000 0.000000 0.000000)
+  (size 1.200000 2.800000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 1.650000 0.000000 0.000000)
+  (size 1.200000 2.800000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

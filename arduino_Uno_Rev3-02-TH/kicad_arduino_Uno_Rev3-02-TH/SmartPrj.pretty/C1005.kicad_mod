@@ -1,0 +1,103 @@
+(module C1005
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "CAPACITOR; chip")
+ (fp_text reference >NAME
+  (at 2.660953 -1.397000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.993572 1.270000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -0.245000 -0.224000)
+  (end 0.245000 -0.224000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.245000 0.224000)
+  (end -0.245000 0.224000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.473000 -0.483000)
+  (end 1.473000 -0.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.473000 -0.483000)
+  (end 1.473000 0.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.473000 0.483000)
+  (end -1.473000 0.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.473000 0.483000)
+  (end -1.473000 -0.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.554000 -0.295100)
+   (xy -0.254000 -0.295100)
+   (xy -0.254000 0.304800)
+   (xy -0.554000 0.304800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.258800 -0.295100)
+   (xy 0.558800 -0.295100)
+   (xy 0.558800 0.304800)
+   (xy 0.258800 0.304800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.199900 -0.300000)
+   (xy 0.199900 -0.300000)
+   (xy 0.199900 0.300000)
+   (xy -0.199900 0.300000)
+  )
+  (layer F.Adhes)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -0.650000 0.000000 0.000000)
+  (size 0.700000 0.900000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 0.650000 0.000000 0.000000)
+  (size 0.700000 0.900000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

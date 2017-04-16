@@ -1,0 +1,140 @@
+(module "KA-3528ASYC"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "SURFACE MOUNT LED LAMP 3.5x2.8mm; Source: http://www.kingbright.com/manager/upload/pdf/KA-3528ASYC(Ver1189474662.1)")
+ (fp_text reference >NAME
+  (at 1.390953 -2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.723572 2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -1.550000 -1.350000)
+  (end 1.550000 -1.350000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.550000 -1.350000)
+  (end 1.550000 1.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.550000 1.350000)
+  (end -1.550000 1.350000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.550000 1.350000)
+  (end -1.550000 -1.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 0.000000 0.006300)
+  (end -0.650000 -0.950000)
+  (angle 68.408130)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 0.000000 -0.006300)
+  (end 0.650000 0.950000)
+  (angle 68.408130)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.750000 -1.100000)
+   (xy -1.600000 -1.100000)
+   (xy -1.600000 -0.600000)
+   (xy -1.750000 -0.600000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.750000 0.600000)
+   (xy -1.600000 0.600000)
+   (xy -1.600000 1.100000)
+   (xy -1.750000 1.100000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 1.600000 0.600000)
+   (xy 1.750000 0.600000)
+   (xy 1.750000 1.100000)
+   (xy 1.600000 1.100000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 1.600000 -1.100000)
+   (xy 1.750000 -1.100000)
+   (xy 1.750000 -0.600000)
+   (xy 1.600000 -0.600000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 1.150000 0.000000)
+  (layer F.Fab)
+  (width 0.101600)
+ )
+ (fp_poly
+  (pts
+   (xy 1.550000 1.350000)
+   (xy 1.550000 0.625000)
+   (xy 0.825000 1.350000)
+  )
+  (layer F.Fab)
+  (width 0.101600)
+ )
+ (fp_poly
+  (pts
+   (xy 1.550000 1.350000)
+   (xy 1.550000 1.175000)
+   (xy 1.000000 1.175000)
+   (xy 0.825000 1.350000)
+  )
+  (layer F.SilkS)
+  (width 0.101600)
+ )
+ (pad A smd rect
+  (at -1.550000 0.000000 0.000000)
+  (size 1.500000 2.200000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad C smd rect
+  (at 1.550000 0.000000 0.000000)
+  (size 1.500000 2.200000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

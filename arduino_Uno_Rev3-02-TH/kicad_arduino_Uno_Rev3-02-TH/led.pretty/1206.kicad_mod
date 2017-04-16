@@ -1,0 +1,159 @@
+(module 1206
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "CHICAGO MINIATURE LAMP, INC.; 7022X Series SMT LEDs 1206 Package Size")
+ (fp_text reference >NAME
+  (at 2.025953 -1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.358572 1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start 1.550000 0.750000)
+  (end -1.550000 0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.550000 0.750000)
+  (end -1.550000 -0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.550000 -0.750000)
+  (end 1.550000 -0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.550000 -0.750000)
+  (end 1.550000 0.750000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -0.550000 0.500000)
+  (angle -95.452620)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -0.550000 0.500000)
+  (angle 84.547380)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -0.550000 -0.500000)
+  (angle 95.452620)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end 0.550000 -0.500000)
+  (angle 84.547380)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.100000 -0.100000)
+   (xy 0.100000 -0.100000)
+   (xy 0.100000 0.100000)
+   (xy -0.100000 0.100000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.450000 0.450000)
+   (xy 0.800000 0.450000)
+   (xy 0.800000 0.700000)
+   (xy 0.450000 0.700000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.800000 -0.500000)
+   (xy 0.900000 -0.500000)
+   (xy 0.900000 0.700000)
+   (xy 0.800000 0.700000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.800000 -0.700000)
+   (xy 0.900000 -0.700000)
+   (xy 0.900000 -0.550000)
+   (xy 0.800000 -0.550000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.900000 -0.500000)
+   (xy -0.800000 -0.500000)
+   (xy -0.800000 0.700000)
+   (xy -0.900000 0.700000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.900000 -0.700000)
+   (xy -0.800000 -0.700000)
+   (xy -0.800000 -0.550000)
+   (xy -0.900000 -0.550000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.450000 0.450000)
+   (xy 0.600000 0.450000)
+   (xy 0.600000 0.700000)
+   (xy 0.450000 0.700000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad A smd rect
+  (at -1.422000 0.000000 0.000000)
+  (size 1.600000 1.803000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad C smd rect
+  (at 1.422000 0.000000 0.000000)
+  (size 1.600000 1.803000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

@@ -1,0 +1,91 @@
+(module SCD80_INFINEON
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Diode Package Reflow soldering; INFINEON, www.infineon.com/cmc_upload/0/000/010/257/eh_db_5b.pdf")
+ (fp_text reference >NAME
+  (at 2.395953 -1.135000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.728571 1.165000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -0.600000 -0.350000)
+  (end -0.600000 0.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.600000 0.350000)
+  (end 0.600000 0.350000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.600000 0.350000)
+  (end 0.600000 -0.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.600000 -0.350000)
+  (end -0.600000 -0.350000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.600000 -0.350000)
+   (xy 0.000000 -0.350000)
+   (xy 0.000000 0.350000)
+   (xy -0.600000 0.350000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.850000 -0.150000)
+   (xy -0.600000 -0.150000)
+   (xy -0.600000 0.150000)
+   (xy -0.850000 0.150000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.600000 -0.150000)
+   (xy 0.850000 -0.150000)
+   (xy 0.850000 0.150000)
+   (xy 0.600000 0.150000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad C smd rect
+  (at -0.725000 0.000000 0.000000)
+  (size 0.350000 0.350000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad A smd rect
+  (at 0.725000 0.000000 0.000000)
+  (size 0.350000 0.350000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

@@ -1,0 +1,99 @@
+(module "CHIP-LED0603"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Hyper CHIPLED Hyper-Bright LED; LB Q993; Source: http://www.osram.convergy.de/ ... Lb_q993.pdf")
+ (fp_text reference >NAME
+  (at -1.270000 -2.660953 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.270000 -2.993571 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -0.400000 -0.450000)
+  (end -0.400000 0.450000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.400000 -0.450000)
+  (end 0.400000 0.450000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.450000 -0.850000)
+   (xy 0.450000 -0.850000)
+   (xy 0.450000 -0.450000)
+   (xy -0.450000 -0.450000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.450000 0.450000)
+   (xy 0.450000 0.450000)
+   (xy 0.450000 0.850000)
+   (xy -0.450000 0.850000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.450000 -0.300000)
+   (xy -0.300000 -0.300000)
+   (xy -0.300000 0.000000)
+   (xy -0.450000 0.000000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.300000 -0.300000)
+   (xy 0.450000 -0.300000)
+   (xy 0.450000 0.000000)
+   (xy 0.300000 0.000000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.150000 -0.300000)
+   (xy 0.150000 -0.300000)
+   (xy 0.150000 0.000000)
+   (xy -0.150000 0.000000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad C smd rect
+  (at 0.000000 -0.750000 0.000000)
+  (size 0.800000 0.800000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad A smd rect
+  (at 0.000000 0.750000 0.000000)
+  (size 0.800000 0.800000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

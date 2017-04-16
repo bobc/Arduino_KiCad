@@ -1,0 +1,119 @@
+(module CT3216
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "TANTALUM CAPACITOR")
+ (fp_text reference >NAME
+  (at 0.755953 -1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.088572 1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -2.973000 -1.483000)
+  (end 2.973000 -1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.973000 1.483000)
+  (end -2.973000 1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.973000 1.483000)
+  (end -2.973000 -1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.973000 -1.483000)
+  (end 2.973000 1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.651000 -0.559000)
+  (end -1.651000 0.559000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.651000 -0.559000)
+  (end 1.651000 0.559000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.535000 -0.798000)
+  (end -1.535000 0.798000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -1.535000 0.798000)
+  (end 1.535000 0.798000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.535000 0.798000)
+  (end 1.535000 -0.798000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.535000 -0.798000)
+  (end -1.535000 -0.798000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -0.700000 0.000000)
+  (end -1.260000 0.000000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -0.970000 -0.260000)
+  (end -0.970000 0.300000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_poly
+  (pts
+   (xy -0.199900 -0.599900)
+   (xy 0.199900 -0.599900)
+   (xy 0.199900 0.599900)
+   (xy -0.199900 0.599900)
+  )
+  (layer F.Adhes)
+  (width 0.000000)
+ )
+ (pad + smd rect
+  (at -1.400000 0.000000 0.000000)
+  (size 2.000000 1.200000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad - smd rect
+  (at 1.400000 0.000000 0.000000)
+  (size 2.000000 1.200000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

@@ -1,0 +1,183 @@
+(module 2X02_90
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "PIN HEADER")
+ (fp_text reference >NAME
+  (at -3.810000 0.514047 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 3.810000 0.181428 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -2.540000 1.905000)
+  (end 0.000000 1.905000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.000000 1.905000)
+  (end 0.000000 -0.635000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.000000 -0.635000)
+  (end -2.540000 -0.635000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -2.540000 -0.635000)
+  (end -2.540000 1.905000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.270000 -6.985000)
+  (end -1.270000 -1.270000)
+  (layer F.SilkS)
+  (width 0.762000)
+ )
+ (fp_line
+  (start 0.000000 1.905000)
+  (end 2.540000 1.905000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.540000 1.905000)
+  (end 2.540000 -0.635000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.540000 -0.635000)
+  (end 0.000000 -0.635000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.270000 -6.985000)
+  (end 1.270000 -1.270000)
+  (layer F.SilkS)
+  (width 0.762000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.651000 -1.143000)
+   (xy -0.889000 -1.143000)
+   (xy -0.889000 -0.635000)
+   (xy -1.651000 -0.635000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.889000 -1.143000)
+   (xy 1.651000 -1.143000)
+   (xy 1.651000 -0.635000)
+   (xy 0.889000 -0.635000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.651000 1.905000)
+   (xy -0.889000 1.905000)
+   (xy -0.889000 2.921000)
+   (xy -1.651000 2.921000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.889000 1.905000)
+   (xy 1.651000 1.905000)
+   (xy 1.651000 2.921000)
+   (xy 0.889000 2.921000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.651000 4.699000)
+   (xy -0.889000 4.699000)
+   (xy -0.889000 5.461000)
+   (xy -1.651000 5.461000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.651000 2.921000)
+   (xy -0.889000 2.921000)
+   (xy -0.889000 4.699000)
+   (xy -1.651000 4.699000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.889000 2.921000)
+   (xy 1.651000 2.921000)
+   (xy 1.651000 4.699000)
+   (xy 0.889000 4.699000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.889000 4.699000)
+   (xy 1.651000 4.699000)
+   (xy 1.651000 5.461000)
+   (xy 0.889000 5.461000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad 2 thru_hole circle
+  (at -1.270000 3.810000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 4 thru_hole circle
+  (at 1.270000 3.810000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 1 thru_hole circle
+  (at -1.270000 6.350000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 3 thru_hole circle
+  (at 1.270000 6.350000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

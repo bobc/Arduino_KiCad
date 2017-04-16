@@ -1,0 +1,47 @@
+(module HPC0201
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Source: http://www.vishay.com/docs/10129/hpc0201a.pdf")
+ (fp_text reference >NAME
+  (at 2.545953 -1.375000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.843571 1.230000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_poly
+  (pts
+   (xy -0.305000 -0.150000)
+   (xy 0.305000 -0.150000)
+   (xy 0.305000 0.150000)
+   (xy -0.305000 0.150000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -0.180000 0.000000 0.000000)
+  (size 0.200000 0.350000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 0.180000 0.000000 0.000000)
+  (size 0.200000 0.350000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

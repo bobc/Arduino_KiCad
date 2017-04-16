@@ -1,0 +1,97 @@
+(module "C325-162X374"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "CAPACITOR; grid 32.5 mm, outline 16.2 x 37.4 mm")
+ (fp_text reference >NAME
+  (at -13.749870 -9.220200 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.778000 1.778000)
+    (thickness 0.177800)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -5.765800 1.981200 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.778000 1.778000)
+    (thickness 0.177800)
+   )
+  )
+ )
+ (fp_line
+  (start -14.274800 0.000000)
+  (end -12.700000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -12.700000 -1.905000)
+  (end -12.700000 0.000000)
+  (layer F.SilkS)
+  (width 0.406400)
+ )
+ (fp_line
+  (start -11.811000 -1.905000)
+  (end -11.811000 0.000000)
+  (layer F.SilkS)
+  (width 0.406400)
+ )
+ (fp_line
+  (start -11.811000 0.000000)
+  (end 14.274800 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -11.811000 0.000000)
+  (end -11.811000 1.905000)
+  (layer F.SilkS)
+  (width 0.406400)
+ )
+ (fp_line
+  (start -12.700000 0.000000)
+  (end -12.700000 1.905000)
+  (layer F.SilkS)
+  (width 0.406400)
+ )
+ (fp_line
+  (start 18.542000 -8.001000)
+  (end 18.542000 8.001000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -18.542000 -8.001000)
+  (end -18.542000 8.001000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -18.542000 8.001000)
+  (end 18.542000 8.001000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 18.542000 -8.001000)
+  (end -18.542000 -8.001000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (pad 1 thru_hole circle
+  (at -16.256000 0.000000 0.000000)
+  (size 1.790700 1.790700)
+  (drill 1.193800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 16.256000 0.000000 0.000000)
+  (size 1.790700 1.790700)
+  (drill 1.193800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

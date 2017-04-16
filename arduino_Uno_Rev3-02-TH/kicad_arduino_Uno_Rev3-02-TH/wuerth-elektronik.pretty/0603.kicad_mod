@@ -1,0 +1,77 @@
+(module 0603
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Multilayer SMD")
+ (fp_text reference >NAME
+  (at -0.005443 0.965200 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 0.609600 0.609600)
+    (thickness 0.048768)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.154214 -0.939800 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 0.609600 0.609600)
+    (thickness 0.048768)
+   )
+  )
+ )
+ (fp_line
+  (start -0.900000 0.000000)
+  (end 0.700000 0.000000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.800000 -0.400000)
+  (end 0.800000 -0.400000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.800000 -0.400000)
+  (end 0.800000 0.400000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.800000 0.400000)
+  (end -0.800000 0.400000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.800000 0.400000)
+  (end -0.800000 -0.400000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.300000 -0.100000)
+   (xy 0.100000 -0.100000)
+   (xy 0.100000 0.100000)
+   (xy -0.300000 0.100000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -0.900000 0.000000 0.000000)
+  (size 0.850000 0.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 0.700000 0.000000 0.000000)
+  (size 0.850000 0.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

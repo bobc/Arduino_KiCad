@@ -1,0 +1,81 @@
+(module E5R
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "ELECTROLYTIC CAPACITOR; grid 5.08 mm, diameter 9 mm")
+ (fp_text reference >NAME
+  (at 4.946953 -3.098800 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -1.451428 2.413000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start -0.889000 0.000000)
+  (end 0.939800 0.000000)
+  (layer F.SilkS)
+  (width 0.609600)
+ )
+ (fp_line
+  (start -5.588000 0.000000)
+  (end -4.572000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -5.080000 0.508000)
+  (end -5.080000 -0.508000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.540000 0.000000)
+  (end 1.143000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_line
+  (start -2.540000 0.000000)
+  (end -1.016000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_arc
+  (start -2.540001 -0.000051)
+  (end 1.778000 1.143000)
+  (angle 330.552700)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -2.540000 0.000027)
+  (end 1.773200 -1.161300)
+  (angle 29.895310)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (pad + thru_hole circle
+  (at -2.540000 0.000000 0.000000)
+  (size 2.540000 2.540000)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad - thru_hole circle
+  (at 2.540000 0.000000 0.000000)
+  (size 2.540000 2.540000)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

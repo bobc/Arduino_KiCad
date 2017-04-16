@@ -1,0 +1,49 @@
+(module "SANYO-OSCON_9F"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "SANYO OSCON Capacitor; Source: e_os_all.pdf")
+ (fp_text reference >NAME
+  (at 1.390953 -1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.723572 1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -4.550000 0.000000)
+  (end -3.600000 0.000000)
+  (layer F.SilkS)
+  (width 0.406400)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 4.900000 0.000000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (pad - thru_hole circle
+  (at -2.500000 0.000000 0.000000)
+  (size 1.270000 1.270000)
+  (drill 0.800000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad + thru_hole circle
+  (at 2.500000 0.000000 0.000000)
+  (size 1.270000 1.270000)
+  (drill 0.800000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

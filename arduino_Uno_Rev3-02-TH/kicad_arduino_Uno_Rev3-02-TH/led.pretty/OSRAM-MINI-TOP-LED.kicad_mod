@@ -1,0 +1,179 @@
+(module "OSRAM-MINI-TOP-LED"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "BLUE LINETM Hyper Mini TOPLED® Hyper-Bright LED; Source: http://www.osram.convergy.de/ ... LB M676.pdf")
+ (fp_text reference >NAME
+  (at -3.175000 -1.390953 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 3.175000 -1.723572 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text user A
+  (at -0.090714 -2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text user C
+  (at 0.000000 2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -0.600000 -0.900000)
+  (end -0.600000 0.700000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.450000 0.900000)
+  (end -0.400000 0.900000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.400000 0.900000)
+  (end 0.600000 0.900000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.600000 0.900000)
+  (end 0.600000 -0.900000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.600000 -0.900000)
+  (end -0.600000 -0.900000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.450000 -0.950000)
+  (end -0.450000 -1.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.450000 -1.100000)
+  (end 0.450000 -1.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.450000 -1.100000)
+  (end 0.450000 -0.950000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.600000 0.700000)
+  (end -0.400000 0.900000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.450000 0.900000)
+  (end -0.450000 1.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.450000 1.100000)
+  (end 0.450000 1.100000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.450000 1.100000)
+  (end 0.450000 0.950000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.500000 -1.400000)
+   (xy 0.500000 -1.400000)
+   (xy 0.500000 -0.600000)
+   (xy -0.500000 -0.600000)
+  )
+  (layer F.Mask)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.500000 0.600000)
+   (xy 0.500000 0.600000)
+   (xy 0.500000 1.400000)
+   (xy -0.500000 1.400000)
+  )
+  (layer F.Mask)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.150000 0.300000)
+   (xy 0.150000 0.300000)
+   (xy 0.150000 0.600000)
+   (xy -0.150000 0.600000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.450000 -1.350000)
+   (xy 0.450000 -1.350000)
+   (xy 0.450000 -0.650000)
+   (xy -0.450000 -0.650000)
+  )
+  (layer F.Paste)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.450000 0.650000)
+   (xy 0.450000 0.650000)
+   (xy 0.450000 1.350000)
+   (xy -0.450000 1.350000)
+  )
+  (layer F.Paste)
+  (width 0.000000)
+ )
+ (pad A smd rect
+  (at 0.000000 -2.600000 0.000000)
+  (size 4.000000 4.000000)
+  (drill 0.000000)
+  (layers F.Cu)
+ )
+ (pad C smd rect
+  (at 0.000000 2.600000 0.000000)
+  (size 4.000000 4.000000)
+  (drill 0.000000)
+  (layers F.Cu)
+ )
+)

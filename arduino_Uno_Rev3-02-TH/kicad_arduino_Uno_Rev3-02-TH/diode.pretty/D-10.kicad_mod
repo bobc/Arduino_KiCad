@@ -1,0 +1,95 @@
+(module "D-10"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr DIODE)
+ (fp_text reference >NAME
+  (at 0.120953 -2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.453572 2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start 3.175000 -1.524000)
+  (end -3.175000 -1.524000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -3.175000 1.524000)
+  (end 3.175000 1.524000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -3.175000 0.000000)
+  (end -3.937000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -3.175000 -1.524000)
+  (end -3.175000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 3.937000 0.000000)
+  (end 3.175000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 3.175000 1.524000)
+  (end 3.175000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -3.175000 0.000000)
+  (end -3.175000 1.524000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 3.175000 0.000000)
+  (end 3.175000 -1.524000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy -2.286000 -1.524000)
+   (xy -1.524000 -1.524000)
+   (xy -1.524000 1.524000)
+   (xy -2.286000 1.524000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad A thru_hole oval
+  (at 5.080000 0.000000 0.000000)
+  (size 2.641600 1.320800)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad C thru_hole oval
+  (at -5.080000 0.000000 0.000000)
+  (size 2.641600 1.320800)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

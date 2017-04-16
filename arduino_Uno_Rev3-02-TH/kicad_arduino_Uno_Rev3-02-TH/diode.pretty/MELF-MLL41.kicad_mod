@@ -1,0 +1,109 @@
+(module "MELF-MLL41"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "DIODE; Package DO-213AB = http://www.diotec.com/pdf/sm4001.pdf")
+ (fp_text reference >NAME
+  (at 0.632953 -2.359000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.965571 2.359000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start 2.082800 -1.193800)
+  (end -2.159000 -1.193800)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.082800 1.193800)
+  (end -2.133600 1.193800)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.627000 -1.000000)
+  (end -0.746000 0.000000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -0.746000 0.000000)
+  (end 0.627000 1.000000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 0.627000 1.000000)
+  (end 0.627000 -1.000000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.120800 -1.193800)
+  (end -1.097000 -1.193800)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.120800 1.193800)
+  (end -1.071600 1.193800)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy 2.057400 -1.270000)
+   (xy 2.565400 -1.270000)
+   (xy 2.565400 1.270000)
+   (xy 2.057400 1.270000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -2.616200 -1.270000)
+   (xy -2.108200 -1.270000)
+   (xy -2.108200 1.270000)
+   (xy -2.616200 1.270000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.447800 -1.193800)
+   (xy -0.558800 -1.193800)
+   (xy -0.558800 1.193800)
+   (xy -1.447800 1.193800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad C smd rect
+  (at -2.625000 0.000000 0.000000)
+  (size 2.500000 3.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad A smd rect
+  (at 2.625000 0.000000 0.000000)
+  (size 2.500000 3.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

@@ -1,0 +1,81 @@
+(module P0817V
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "RESISTOR; type 0817, grid 6.35 mm")
+ (fp_text reference >NAME
+  (at 2.279953 -1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 2.612571 1.905000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user 0817
+  (at -4.922762 -2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.121920)
+   )
+  )
+ )
+ (fp_line
+  (start -3.810000 0.000000)
+  (end -5.080000 0.000000)
+  (layer F.Fab)
+  (width 0.812800)
+ )
+ (fp_line
+  (start 1.270000 0.000000)
+  (end 0.000000 0.000000)
+  (layer F.Fab)
+  (width 0.812800)
+ )
+ (fp_poly
+  (pts
+   (xy -3.810000 -0.406400)
+   (xy 0.000000 -0.406400)
+   (xy 0.000000 0.406400)
+   (xy -3.810000 0.406400)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_circle
+  (center -5.080000 0.000000)
+  (end -1.270000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_circle
+  (center -5.080000 0.000000)
+  (end -3.810000 0.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (pad 1 thru_hole circle
+  (at -5.080000 0.000000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 1.270000 0.000000 0.000000)
+  (size 1.524000 1.524000)
+  (drill 1.016000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)
