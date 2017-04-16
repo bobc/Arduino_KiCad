@@ -1,0 +1,121 @@
+(module V235_17
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "RESISTOR; type V235, grid 17.78 mm")
+ (fp_text reference >NAME
+  (at -3.562047 -3.937000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -2.213428 0.000000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start -6.731000 -2.921000)
+  (end 6.731000 -2.921000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -7.112000 -2.540000)
+  (end -7.112000 2.540000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 6.731000 2.921000)
+  (end -6.731000 2.921000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 7.112000 -2.540000)
+  (end 7.112000 2.540000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 8.890000 0.000000)
+  (end 7.874000 0.000000)
+  (layer F.Fab)
+  (width 1.016000)
+ )
+ (fp_line
+  (start -7.874000 0.000000)
+  (end -8.890000 0.000000)
+  (layer F.Fab)
+  (width 1.016000)
+ )
+ (fp_arc
+  (start -6.731000 2.540000)
+  (end -7.112000 2.540000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 6.731000 -2.540000)
+  (end 6.731000 -2.921000)
+  (angle 90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 6.731000 2.540000)
+  (end 6.731000 2.921000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -6.731000 -2.540000)
+  (end -7.112000 -2.540000)
+  (angle 90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy 7.112000 -0.508000)
+   (xy 7.747000 -0.508000)
+   (xy 7.747000 0.508000)
+   (xy 7.112000 0.508000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -7.747000 -0.508000)
+   (xy -7.112000 -0.508000)
+   (xy -7.112000 0.508000)
+   (xy -7.747000 0.508000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad 1 thru_hole circle
+  (at -8.890000 0.000000 0.000000)
+  (size 1.790700 1.790700)
+  (drill 1.193800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 8.890000 0.000000 0.000000)
+  (size 1.790700 1.790700)
+  (drill 1.193800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

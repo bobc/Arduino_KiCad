@@ -1,0 +1,98 @@
+(module LED5MM
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "LED; 5 mm, round")
+ (fp_text reference >NAME
+  (at 6.470953 -1.168400 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 6.828972 1.168400 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start 2.540000 1.905000)
+  (end 2.540000 -1.905000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_arc
+  (start 0.000001 0.000000)
+  (end 2.540000 1.905000)
+  (angle 286.260200)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -1.143000 0.000000)
+  (angle 90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end 0.000000 1.143000)
+  (angle -90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -1.651000 0.000000)
+  (angle 90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end 0.000000 1.651000)
+  (angle -90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end -2.159000 0.000000)
+  (angle 90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 0.000000)
+  (end 0.000000 2.159000)
+  (angle -90.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 2.540000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (pad A thru_hole circle
+  (at -1.270000 0.000000 0.000000)
+  (size 1.320800 1.320800)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad K thru_hole circle
+  (at 1.270000 0.000000 0.000000)
+  (size 1.320800 1.320800)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

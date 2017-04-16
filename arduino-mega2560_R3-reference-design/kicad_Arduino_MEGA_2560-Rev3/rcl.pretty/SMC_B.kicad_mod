@@ -1,0 +1,91 @@
+(module SMC_B
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Chip Capacitor  Polar tantalum capacitors with solid electrolyte; Siemens Matsushita Components B 45 194, B 45 197, B 45 198; Source: www.farnell.com/datasheets/247.pdf")
+ (fp_text reference >NAME
+  (at 0.731762 -2.413000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.081280)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.997857 2.032000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.081280)
+   )
+  )
+ )
+ (fp_line
+  (start -1.600000 -1.350000)
+  (end 1.600000 -1.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.600000 -1.350000)
+  (end 1.600000 1.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.600000 1.350000)
+  (end -1.600000 1.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.600000 1.350000)
+  (end -1.600000 -1.350000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.750000 -1.100000)
+   (xy -1.550000 -1.100000)
+   (xy -1.550000 1.100000)
+   (xy -1.750000 1.100000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 1.550000 -1.100000)
+   (xy 1.750000 -1.100000)
+   (xy 1.750000 1.100000)
+   (xy 1.550000 1.100000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.600000 -1.350000)
+   (xy -0.950000 -1.350000)
+   (xy -0.950000 1.350000)
+   (xy -1.600000 1.350000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad + smd rect
+  (at -1.500000 0.000000 0.000000)
+  (size 1.600000 2.400000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad - smd rect
+  (at 1.500000 0.000000 0.000000)
+  (size 1.600000 2.400000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

@@ -1,0 +1,23 @@
+EESchema-DOCLIB Version 2.3
+#
+$CMP MC33269ST-3.3T3
+D Adjustable Output Low Dropout Voltage Regulator 800 mA; Source: http://www.onsemi.com/pub/Collateral/MC33269-D.PDF
+$ENDCMP
+#
+$CMP LMV358M
+D Dual General Purpose, Low Voltage, Rail-to-Rail Output Operational Amplifiers; Source: http://www.national.com/mpf/LM/LMV321.html; http://www.national.com/dt/lmv_qual.pdf
+$ENDCMP
+#
+$CMP LMV358MX
+D Dual General Purpose, Low Voltage, Rail-to-Rail Output Operational Amplifiers; Source: http://www.national.com/mpf/LM/LMV321.html; http://www.national.com/dt/lmv_qual.pdf
+$ENDCMP
+#
+$CMP LMV358MM
+D Dual General Purpose, Low Voltage, Rail-to-Rail Output Operational Amplifiers; Source: http://www.national.com/mpf/LM/LMV321.html; http://www.national.com/dt/lmv_qual.pdf
+$ENDCMP
+#
+$CMP LMV358MMX
+D Dual General Purpose, Low Voltage, Rail-to-Rail Output Operational Amplifiers; Source: http://www.national.com/mpf/LM/LMV321.html; http://www.national.com/dt/lmv_qual.pdf
+$ENDCMP
+#
+#End Library

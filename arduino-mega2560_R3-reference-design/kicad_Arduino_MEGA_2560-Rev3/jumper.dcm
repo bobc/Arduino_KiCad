@@ -1,0 +1,11 @@
+EESchema-DOCLIB Version 2.3
+#
+$CMP SJ
+D SMD solder JUMPER
+$ENDCMP
+#
+$CMP SJW
+D SMD solder JUMPER
+$ENDCMP
+#
+#End Library

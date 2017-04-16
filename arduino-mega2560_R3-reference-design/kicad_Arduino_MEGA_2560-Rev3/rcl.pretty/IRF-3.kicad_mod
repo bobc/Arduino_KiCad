@@ -1,0 +1,121 @@
+(module "IRF-3"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Vishay Dale Inductor; Source: www.vishay.com .. irf.pdf")
+ (fp_text reference >NAME
+  (at -0.514047 -3.175000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.453572 0.000000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start 6.730000 0.000000)
+  (end 5.200000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_line
+  (start -6.705000 0.000000)
+  (end -5.225000 0.000000)
+  (layer F.Fab)
+  (width 0.609600)
+ )
+ (fp_arc
+  (start -4.532001 -1.732000)
+  (end -4.800000 -1.739000)
+  (angle 90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -4.544500 1.769500)
+  (end -4.800000 1.764000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 4.569500 1.769500)
+  (end 4.575000 2.025000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 4.569500 -1.744500)
+  (end 4.575000 -2.000000)
+  (angle 90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -4.800000 1.764000)
+  (end -4.800000 -1.739000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 4.575000 -2.000000)
+  (end -4.525000 -2.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 4.575000 2.025000)
+  (end -4.550000 2.025000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 4.825000 1.764000)
+  (end 4.825000 -1.739000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy 4.825000 -0.304800)
+   (xy 5.200000 -0.304800)
+   (xy 5.200000 0.304800)
+   (xy 4.825000 0.304800)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -5.200000 -0.304800)
+   (xy -4.800000 -0.304800)
+   (xy -4.800000 0.304800)
+   (xy -5.200000 0.304800)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad 1 thru_hole circle
+  (at -6.705000 0.000000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 1.000000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 6.730000 0.000000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 1.000000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

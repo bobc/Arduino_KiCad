@@ -1,0 +1,89 @@
+(module QS
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr CRYSTAL)
+ (fp_text reference >NAME
+  (at -1.784047 -3.302000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -1.451428 3.302000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start -3.429000 2.286000)
+  (end 3.429000 2.286000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 3.429000 -2.286000)
+  (end -3.429000 -2.286000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -3.429000 1.778000)
+  (end 3.429000 1.778000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.429000 -1.778000)
+  (end -3.429000 -1.778000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 3.429000 0.000000)
+  (end 3.429000 -1.778000)
+  (angle 180.000000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 3.429000 0.000000)
+  (end 3.429000 -2.286000)
+  (angle 180.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -3.429000 0.000000)
+  (end -3.429000 -2.286000)
+  (angle -180.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -3.429000 0.000000)
+  (end -3.429000 -1.778000)
+  (angle -180.000000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (pad 1 thru_hole circle
+  (at -2.540000 0.000000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 0.850000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 2.540000 0.000000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 0.850000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

@@ -1,0 +1,85 @@
+(module PN61729
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr BERG)
+ (fp_text reference >NAME
+  (at -3.054047 -6.985000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 6.985000 5.261429 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -5.900000 -5.600000)
+  (end -5.900000 10.150000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start -5.900000 10.150000)
+  (end 5.900000 10.150000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 5.900000 10.150000)
+  (end 5.900000 -5.600000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (fp_line
+  (start 5.900000 -5.600000)
+  (end -5.900000 -5.600000)
+  (layer F.SilkS)
+  (width 0.254000)
+ )
+ (pad 1 thru_hole circle
+  (at 1.250000 -4.710000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 0.950000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at -1.250000 -4.710000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 0.950000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 3 thru_hole circle
+  (at -1.250000 -2.710000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 0.950000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 4 thru_hole circle
+  (at 1.250000 -2.710000 0.000000)
+  (size 1.676400 1.676400)
+  (drill 0.950000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad P$1 thru_hole circle
+  (at -6.000000 0.000000 0.000000)
+  (size 3.216000 3.216000)
+  (drill 2.200000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad P$2 thru_hole circle
+  (at 6.000000 0.000000 0.000000)
+  (size 3.216000 3.216000)
+  (drill 2.200000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

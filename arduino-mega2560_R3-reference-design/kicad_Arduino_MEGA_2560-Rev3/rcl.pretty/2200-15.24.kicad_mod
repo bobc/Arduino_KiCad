@@ -1,0 +1,73 @@
+(module "2200-15.24"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "newport components 2200 Serie RM 15.24 mm; Miniatur Axial Lead Inductors; Source: www.rsonline.de; Order code 240-517")
+ (fp_text reference >NAME
+  (at -1.149047 -3.175000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -0.181428 0.000000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -4.900000 -1.900000)
+  (end 4.900000 -1.900000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 4.900000 -1.900000)
+  (end 4.900000 1.900000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 4.900000 1.900000)
+  (end -4.900000 1.900000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -4.900000 1.900000)
+  (end -4.900000 -1.900000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -7.620000 0.000000)
+  (end -5.080000 0.000000)
+  (layer F.Fab)
+  (width 0.500000)
+ )
+ (fp_line
+  (start 7.620000 0.000000)
+  (end 5.080000 0.000000)
+  (layer F.Fab)
+  (width 0.500000)
+ )
+ (pad 1 thru_hole circle
+  (at -7.620000 0.000000 0.000000)
+  (size 1.270000 1.270000)
+  (drill 0.800000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 7.620000 0.000000 0.000000)
+  (size 1.270000 1.270000)
+  (drill 0.800000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

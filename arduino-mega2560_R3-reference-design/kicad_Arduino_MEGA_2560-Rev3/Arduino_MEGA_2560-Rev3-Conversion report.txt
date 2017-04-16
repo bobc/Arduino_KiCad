@@ -1,0 +1,159 @@
+info: Conversion report on 2017-04-16 20:50:47
+info: 
+info: Parameters:
+info: Input  : Arduino_MEGA_2560-Rev3.sch
+info: Output : kicad_Arduino_MEGA_2560-Rev3
+info: 
+info: Log:
+info: Reading schematic file C:\git_bobc\Arduino_KiCad\arduino-mega2560_R3-reference-design\Arduino_MEGA_2560-Rev3.sch
+info: Processing Library: supply1
+info: Processing Library: rcl
+note: 0204/5 is renamed to 0204_5
+note: 0207/10 is renamed to 0207_10
+note: 0207/12 is renamed to 0207_12
+note: 0207/2V is renamed to 0207_2V
+note: 0207/5V is renamed to 0207_5V
+note: 0207/7 is renamed to 0207_7
+note: 0207/15 is renamed to 0207_15
+note: 0204/7 is renamed to 0204_7
+note: A/3216-18R is renamed to A_3216-18R
+note: A/3216-18W is renamed to A_3216-18W
+note: B/3528-21R is renamed to B_3528-21R
+note: B/3528-21W is renamed to B_3528-21W
+note: C/6032-28R is renamed to C_6032-28R
+note: C/6032-28W is renamed to C_6032-28W
+note: D/7343-31R is renamed to D_7343-31R
+note: D/7343-31W is renamed to D_7343-31W
+note: E/7260-38R is renamed to E_7260-38R
+note: E/7260-38W is renamed to E_7260-38W
+note: R/2012-12R is renamed to R_2012-12R
+note: R/2012-12W is renamed to R_2012-12W
+info: Processing Library: diode
+info: Processing Library: led
+info: Processing Library: linear
+info: Processing Library: SmartPrj
+note: 0309/10 is renamed to 0309_10
+note: 0309/12 is renamed to 0309_12
+note: 0411/12 is renamed to 0411_12
+note: 0411/15 is renamed to 0411_15
+note: 0414/15 is renamed to 0414_15
+note: P0613/15 is renamed to P0613_15
+note: 0617/17 is renamed to 0617_17
+note: 0617/22 is renamed to 0617_22
+note: P0817/22 is renamed to P0817_22
+note: 0922/22 is renamed to 0922_22
+note: RDH/15 is renamed to RDH_15
+note: V234/12 is renamed to V234_12
+note: V235/17 is renamed to V235_17
+note: 0204/5 is renamed to 0204_5
+note: 0204/7 is renamed to 0204_7
+note: 0207/2V is renamed to 0207_2V
+note: 0207/5V is renamed to 0207_5V
+note: 0207/7 is renamed to 0207_7
+note: 0207/10 is renamed to 0207_10
+note: 0207/12 is renamed to 0207_12
+note: 0207/15 is renamed to 0207_15
+note: 1X10/90 is renamed to 1X10_90
+note: 2X02/90 is renamed to 2X02_90
+note: 2X18/90 is renamed to 2X18_90
+info: Processing Library: zetex
+info: Processing Library: jumper
+info: Processing Library: wuerth-elektronik
+info: Processing Library: varistor
+note: CT/CN0402 is renamed to CT_CN0402
+note: CT/CN0603 is renamed to CT_CN0603
+note: CT/CN0805 is renamed to CT_CN0805
+note: CT/CN1206 is renamed to CT_CN1206
+note: CT/CN1210 is renamed to CT_CN1210
+note: CT/CN1812 is renamed to CT_CN1812
+note: CT/CN2220 is renamed to CT_CN2220
+info: Processing Library: resistor-dil
+info: Processing schematic sheet: 1
+note: ICSP is renamed ICSP2
+note: PWML is renamed PWML1
+note: ON is renamed ON1
+note: ADCL is renamed ADCL1
+note: COMMUNICATION is renamed COMMUNICATION1
+note: ADCH is renamed ADCH1
+note: RX is renamed RX1
+note: TX is renamed TX1
+note: L is renamed L2
+note: RESET-EN is renamed RESET-EN1
+note: GROUND is renamed GROUND1
+note: RESET is renamed RESET1
+note: XIO is renamed XIO1
+note: POWER is renamed POWER1
+info: Writing schematic kicad_Arduino_MEGA_2560-Rev3\Arduino_MEGA_2560-Rev3.sch
+info: Reading board file C:\git_bobc\Arduino_KiCad\arduino-mega2560_R3-reference-design\Arduino_MEGA_2560-Rev3.brd
+info: Processing Library: rcl
+info: Processing Library: diode
+info: Processing Library: led
+info: Processing Library: linear
+info: Processing Library: SmartPrj
+info: Processing Library: zetex
+info: Processing Library: jumper
+info: Processing Library: wuerth-elektronik
+info: Processing Library: varistor
+note: CT/CN0603 is renamed to CT_CN0603
+info: Processing Library: resistor-dil
+note: loose via converted to pad at 6.35,22.225 net=+5V
+note: loose via converted to pad at 4.445,22.225 net=+5V
+note: loose via converted to pad at 8.255,22.225 net=+5V
+note: loose via converted to pad at 2.54,22.225 net=+5V
+note: loose via converted to pad at 8.89,19.685 net=+5V
+note: loose via converted to pad at 2.54,13.97 net=+5V
+note: loose via converted to pad at 6.35,13.97 net=+5V
+note: loose via converted to pad at 4.445,13.97 net=+5V
+note: loose via converted to pad at 8.89,15.875 net=+5V
+note: loose via converted to pad at 8.255,13.97 net=+5V
+note: loose via converted to pad at 69,20 net=GND
+note: loose via converted to pad at 38.227,21.209 net=GND
+note: loose via converted to pad at 32.385,33.655 net=GND
+note: loose via converted to pad at 87.63,38.608 net=GND
+note: loose via converted to pad at 90.17,21.59 net=GND
+note: loose via converted to pad at 72.4916,35.7124 net=GND
+note: loose via converted to pad at 23.622,11.684 net=GND
+note: loose via converted to pad at 13.589,13.97 net=GND
+note: loose via converted to pad at 32.258,16.383 net=GND
+note: loose via converted to pad at 40.767,21.209 net=GND
+note: loose via converted to pad at 17.018,46.228 net=GND
+note: loose via converted to pad at 25.527,24.257 net=GND
+note: loose via converted to pad at 58.293,41.402 net=GND
+note: loose via converted to pad at 77.4954,47.8028 net=GND
+note: loose via converted to pad at 44.831,40.132 net=GND
+note: loose via converted to pad at 44.704,27.305 net=GND
+note: loose via converted to pad at 48.387,5.667 net=GND
+note: loose via converted to pad at 25.781,3.429 net=GND
+note: loose via converted to pad at 13.208,22.098 net=GND
+note: loose via converted to pad at 24.13,26.543 net=GND
+note: loose via converted to pad at 25.146,43.307 net=GND
+note: loose via converted to pad at 60.833,27.813 net=GND
+note: loose via converted to pad at 58.039,20.447 net=GND
+note: loose via converted to pad at 12.065,28.194 net=GND
+note: loose via converted to pad at 37.719,24.638 net=GND
+note: loose via converted to pad at 77.978,27.686 net=GND
+note: loose via converted to pad at 76.708,18.042 net=GND
+note: loose via converted to pad at 99.806,31.75 net=GND
+note: loose via converted to pad at 79.883,23.876 net=GND
+note: loose via converted to pad at 69.85,23.495 net=GND
+note: loose via converted to pad at 72.517,27.178 net=GND
+note: loose via converted to pad at 18.415,26.035 net=GND
+note: loose via converted to pad at 69.7066,32.0974 net=GND
+note: loose via converted to pad at 63,20 net=GND
+note: loose via converted to pad at 99.806,16.51 net=GND
+note: loose via converted to pad at 66.04,50.8 net=GND
+note: loose via converted to pad at 43.672,50.8 net=GND
+note: loose via converted to pad at 13.97,32.258 net=GND
+note: loose via converted to pad at 64.3636,38.8874 net=GND
+note: loose via converted to pad at 68.707,26.543 net=GND
+note: loose via converted to pad at 37.338,17.018 net=GND
+note: loose via converted to pad at 31.877,20.828 net=GND
+note: loose via converted to pad at 22.352,22.225 net=GND
+note: loose via converted to pad at 45.974,10.493 net=GND
+warning: unsupported layer: 19 Unrouted in 
+warning: unsupported layer: 50 ReferenceLS in 
+info: Writing board kicad_Arduino_MEGA_2560-Rev3\Arduino_MEGA_2560-Rev3.kicad_pcb
+info: Writing project file kicad_Arduino_MEGA_2560-Rev3\Arduino_MEGA_2560-Rev3.pro
+info: 
+info: Done
+info: *** See report file for 0 errors, 2 warnings, 120 notes ***

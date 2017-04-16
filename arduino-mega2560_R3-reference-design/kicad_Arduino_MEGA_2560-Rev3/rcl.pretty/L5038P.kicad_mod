@@ -1,0 +1,125 @@
+(module L5038P
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "INDUCTOR; precision wire wound")
+ (fp_text reference >NAME
+  (at 1.390953 -3.175000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.723572 3.175000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -2.973000 -1.983000)
+  (end 2.973000 -1.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.973000 1.983000)
+  (end -2.973000 1.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.973000 1.983000)
+  (end -2.973000 -1.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.286000 -1.853000)
+  (end 2.311000 -1.853000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.973000 -1.983000)
+  (end 2.973000 1.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.286000 1.856000)
+  (end 2.311000 1.856000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.389000 1.270000)
+  (end 2.389000 -1.270000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.386000 1.270000)
+  (end -2.386000 -1.270000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.602000 1.854000)
+  (end 1.602000 -1.854000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.624000 1.854000)
+  (end -1.624000 -1.854000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.310000 1.854000)
+  (end -2.310000 -1.854000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.313000 1.854000)
+  (end 2.313000 -1.854000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.500100 -1.000000)
+   (xy 0.500100 -1.000000)
+   (xy 0.500100 1.000000)
+   (xy -0.500100 1.000000)
+  )
+  (layer F.Adhes)
+  (width 0.000000)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 1.473200 0.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (pad 1 smd rect
+  (at -2.200000 0.000000 0.000000)
+  (size 1.400000 2.800000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 2.200000 0.000000 0.000000)
+  (size 1.400000 2.800000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

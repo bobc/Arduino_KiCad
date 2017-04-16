@@ -1,0 +1,44 @@
+(module "FIDUCIA-MOUNT"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (fp_text reference Ref
+  (at 0.000000 0.000000 0.000000)
+  (layer F.SilkS)
+ hide
+  (effects
+   (font
+    (size 1.500000 1.500000)
+    (thickness 0.150000)
+   )
+  )
+ )
+ (fp_text value Val
+  (at 0.000000 0.000000 0.000000)
+  (layer F.Fab)
+ hide
+  (effects
+   (font
+    (size 1.500000 1.500000)
+    (thickness 0.150000)
+   )
+  )
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 0.500000 0.000000)
+  (layer F.Mask)
+  (width 2.184400)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 1.500000 0.000000)
+  (layer Dwgs.User)
+  (width 0.127000)
+ )
+ (pad P$1 smd oval
+  (at 0.000000 0.000000 0.000000)
+  (size 1.016000 1.016000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

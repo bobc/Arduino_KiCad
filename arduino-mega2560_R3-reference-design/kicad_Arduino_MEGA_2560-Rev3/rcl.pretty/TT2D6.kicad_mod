@@ -1,0 +1,117 @@
+(module TT2D6
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "ELECTROLYTIC CAPACITOR; diameter 6 mm, grid 2.54 mm")
+ (fp_text reference >NAME
+  (at 6.216953 -2.159000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 6.549572 2.159000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user TT
+  (at 1.008743 1.790700 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 0.990600 0.990600)
+    (thickness 0.118872)
+   )
+  )
+ )
+ (fp_line
+  (start -1.016000 0.000000)
+  (end -0.508000 0.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.508000 0.000000)
+  (end -0.508000 0.889000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.508000 0.889000)
+  (end -0.177800 0.889000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.177800 0.889000)
+  (end -0.177800 -0.889000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.177800 -0.889000)
+  (end -0.508000 -0.889000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.508000 -0.889000)
+  (end -0.508000 0.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.508000 0.000000)
+  (end 1.016000 0.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.778000 -1.524000)
+  (end -1.016000 -1.524000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.397000 -1.143000)
+  (end -1.397000 -1.905000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy 0.127000 -0.939800)
+   (xy 0.558800 -0.939800)
+   (xy 0.558800 0.939800)
+   (xy 0.127000 0.939800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 3.048000 0.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (pad - thru_hole circle
+  (at 1.270000 0.000000 0.000000)
+  (size 1.320800 1.320800)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad + thru_hole circle
+  (at -1.270000 0.000000 0.000000)
+  (size 1.320800 1.320800)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

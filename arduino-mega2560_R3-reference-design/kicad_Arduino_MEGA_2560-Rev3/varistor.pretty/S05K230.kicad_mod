@@ -1,0 +1,113 @@
+(module S05K230
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr VARISTOR)
+ (fp_text reference >NAME
+  (at -3.429000 -0.755953 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 3.429000 -1.088572 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_line
+  (start -1.397000 -3.683000)
+  (end 1.397000 -3.683000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.413000 -2.667000)
+  (end 2.413000 2.667000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -2.413000 -2.667000)
+  (end -2.413000 2.667000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.397000 3.683000)
+  (end 1.397000 3.683000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.524000 1.143000)
+  (end -1.524000 -2.032000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.524000 2.032000)
+  (end 1.524000 -1.143000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_arc
+  (start 1.397000 2.667000)
+  (end 1.397000 3.683000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -1.397000 -2.667000)
+  (end -2.413000 -2.667000)
+  (angle 90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -1.397000 2.667000)
+  (end -2.413000 2.667000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 1.397000 -2.667000)
+  (end 1.397000 -3.683000)
+  (angle 90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.270000 0.000000)
+  (end 1.270000 -1.143000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.270000 1.143000)
+  (end -1.270000 0.000000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (pad 1 thru_hole oval
+  (at -1.270000 2.540000 0.000000)
+  (size 2.844800 1.422400)
+  (drill 0.914400)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole oval
+  (at 1.270000 -2.540000 0.000000)
+  (size 2.844800 1.422400)
+  (drill 0.914400)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

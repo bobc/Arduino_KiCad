@@ -1,0 +1,51 @@
+EESchema-DOCLIB Version 2.3
+#
+$CMP 4R-N0603-ARC
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-N0603-ARV
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NCAT16
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NCAY16
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NYC124
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-N0402ARV341
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NEXB18V
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NEXB28V
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NEXB38V
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NEXBN8V
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NEXBS8V
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+$CMP 4R-NEXBV8V
+D Array Chip Resistor; Source: RS Component / Phycomp
+$ENDCMP
+#
+#End Library

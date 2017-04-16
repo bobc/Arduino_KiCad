@@ -1,0 +1,61 @@
+(module "TJ8-U1"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Inductor; Source: TJ-Serie Vishay.pdf")
+ (fp_text reference >NAME
+  (at -1.270000 1.784047 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.270000 1.451429 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -12.550000 -24.250000)
+  (end 12.550000 -24.250000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 12.550000 -24.250000)
+  (end 12.550000 24.250000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 12.550000 24.250000)
+  (end -12.550000 24.250000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -12.550000 24.250000)
+  (end -12.550000 -24.250000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (pad 1 thru_hole circle
+  (at -10.400000 0.000000 0.000000)
+  (size 2.250000 2.250000)
+  (drill 1.500000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad 2 thru_hole circle
+  (at 10.400000 0.000000 0.000000)
+  (size 2.250000 2.250000)
+  (drill 1.500000)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

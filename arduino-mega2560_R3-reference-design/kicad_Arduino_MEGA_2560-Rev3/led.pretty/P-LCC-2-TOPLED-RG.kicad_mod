@@ -1,0 +1,229 @@
+(module "P-LCC-2-TOPLED-RG"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Hyper TOPLED® RG Hyper-Bright LED; Source: http://www.osram.convergy.de/ ... LA_LO_LS_LY T776.pdf")
+ (fp_text reference >NAME
+  (at -3.175000 -1.390953 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 3.175000 -1.723572 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text user A
+  (at -0.090714 -3.925000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text user C
+  (at 0.000000 3.925000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -1.400000 1.050000)
+  (end -1.400000 1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -1.400000 1.600000)
+  (end -1.100000 1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -1.100000 1.600000)
+  (end -0.850000 1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -0.850000 1.600000)
+  (end 1.100000 1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.100000 1.600000)
+  (end 1.400000 1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.400000 1.600000)
+  (end 1.400000 -1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.400000 -1.600000)
+  (end 1.100000 -1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 1.100000 -1.600000)
+  (end -1.100000 -1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -1.100000 -1.600000)
+  (end -1.400000 -1.600000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -1.100000 -1.600000)
+  (end -1.100000 -2.450000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.100000 -2.450000)
+  (end 1.100000 -1.600000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.100000 1.600000)
+  (end -1.100000 2.450000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 1.100000 2.450000)
+  (end 1.100000 1.600000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.850000 1.600000)
+  (end -1.400000 1.050000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -1.400000 -1.600000)
+  (end -1.400000 1.050000)
+  (layer F.Fab)
+  (width 0.203200)
+ )
+ (fp_poly
+  (pts
+   (xy -1.300000 1.500000)
+   (xy 1.300000 1.500000)
+   (xy 1.300000 3.000000)
+   (xy -1.300000 3.000000)
+  )
+  (layer F.Paste)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.300000 -3.000000)
+   (xy 1.300000 -3.000000)
+   (xy 1.300000 -1.500000)
+   (xy -1.300000 -1.500000)
+  )
+  (layer F.Paste)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.250000 -0.250000)
+   (xy 0.250000 -0.250000)
+   (xy 0.250000 0.250000)
+   (xy -0.250000 0.250000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.150000 -2.700000)
+   (xy 1.150000 -2.700000)
+   (xy 1.150000 -2.400000)
+   (xy -1.150000 -2.400000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.150000 2.400000)
+   (xy 1.150000 2.400000)
+   (xy 1.150000 2.700000)
+   (xy -1.150000 2.700000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.500000 -3.200000)
+   (xy 1.500000 -3.200000)
+   (xy 1.500000 -1.500000)
+   (xy -1.500000 -1.500000)
+  )
+  (layer F.Mask)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.500000 1.500000)
+   (xy 1.500000 1.500000)
+   (xy 1.500000 3.200000)
+   (xy -1.500000 3.200000)
+  )
+  (layer F.Mask)
+  (width 0.000000)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 1.100000 0.000000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (pad C smd rect
+  (at 0.000000 3.500000 0.000000)
+  (size 4.000000 4.000000)
+  (drill 0.000000)
+  (layers F.Cu)
+ )
+ (pad A smd rect
+  (at 0.000000 -3.500000 0.000000)
+  (size 4.000000 4.000000)
+  (drill 0.000000)
+  (layers F.Cu)
+ )
+ (pad "" np_thru_hole circle
+  (at 0.000000 0.000000 0.000000)
+  (size 2.800000 2.800000)
+  (drill 2.800000)
+  (layers *.Cu)
+ )
+)

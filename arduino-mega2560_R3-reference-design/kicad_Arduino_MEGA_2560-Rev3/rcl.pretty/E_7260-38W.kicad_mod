@@ -1,0 +1,91 @@
+(module "E_7260-38W"
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Chip Capacitor Type KEMET E / EIA 7260-38 Wafe solder")
+ (fp_text reference >NAME
+  (at -1.154047 -3.785000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at -0.821428 3.840000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -3.450000 -2.950000)
+  (end 3.450000 -2.950000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.450000 -2.950000)
+  (end 3.450000 2.950000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.450000 2.950000)
+  (end -3.450000 2.950000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -3.450000 2.950000)
+  (end -3.450000 -2.950000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -3.650000 -2.050000)
+   (xy -3.500000 -2.050000)
+   (xy -3.500000 2.050000)
+   (xy -3.650000 2.050000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 3.500000 -2.050000)
+   (xy 3.650000 -2.050000)
+   (xy 3.650000 2.050000)
+   (xy 3.500000 2.050000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 2.675000 -2.975000)
+   (xy 3.150000 -2.975000)
+   (xy 3.150000 2.975000)
+   (xy 2.675000 2.975000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad + smd rect
+  (at 3.375000 0.000000 0.000000)
+  (size 2.950000 4.400000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad - smd rect
+  (at -3.375000 0.000000 0.000000)
+  (size 2.950000 4.400000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

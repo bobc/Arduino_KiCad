@@ -1,0 +1,753 @@
+EESchema-DOCLIB Version 2.3
+#
+$CMP RESONATORMU
+$ENDCMP
+#
+$CMP FIDUCIALMOUNT
+$ENDCMP
+#
+$CMP R-EU_
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0204/2V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0204/5
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0204/7
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0207/2V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0207/5V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0207/7
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0207/10
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0207/12
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0207/15
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0309/10
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0309/12
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0309/V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0411/3V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0411/12
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0411/15
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0414/5V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0414/15
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0613/5V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0613/15
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0617/5V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0617/17
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0617/22
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0817/7V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0817/22
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0922/22
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0922V
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_M0805
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_M1206
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_M1406
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_M2012
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_M2309
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_M3216
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_M3516
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_M5923
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_MELF0102AX
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_MELF0102R
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_MELF0102W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_MELF0204R
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_MELF0204W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_MELF0207R
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_MELF0207W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R0201
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R0402
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R0603
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R0805
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R0805W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R1005
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R1206
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R1206W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R1210
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R1210W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R2010
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R2010W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R2012
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R2012W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R2512
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R2512W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R3216
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R3216W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R3225
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R3225W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R5025
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R5025W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R6332
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_R6332W
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_RDH/15
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_V234/12
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_V235/17
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_V526-0
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP R-EU_0603-RND
+D RESISTOR, European symbol
+$ENDCMP
+#
+$CMP C-EU
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025-024X044
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025-025X050
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025-030X050
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025-040X050
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025-050X050
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025-060X050
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025_050-025X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025_050-035X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025_050-045X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU025_050-055X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050-024X044
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050-025X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050-030X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050-035X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050-045X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050-050X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050-055X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050-075X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU050H075X075
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU075-032X103
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU075-042X103
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU075-052X106
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU075-063X106
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU102-043X133
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU102-054X133
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU102-064X133
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU102_152-062X184
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU150-054X183
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU150-064X183
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU150-072X183
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU150-084X183
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU150-091X182
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU225-062X268
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU225-074X268
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU225-087X268
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU225-108X268
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU225-113X268
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU275-093X316
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU275-113X316
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU275-134X316
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU275-154X316
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU275-173X316
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU275-205X316
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU325-137X374
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU325-162X374
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU325-182X374
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU375-155X418
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU375-192X418
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU375-203X418
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC025_050-024X070
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC0201
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC0402
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC0402K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC0504
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC0603
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC0603K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC0805
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC0805K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1005
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1206
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1206K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1210
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1210K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1310
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1608
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1812
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1812K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1825
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC1825K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC2012
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC2220K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC2225K
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC3216
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC3225
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC4532
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUC4564
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EUHPC0201
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP C-EU0603-RND
+D CAPACITOR, European symbol
+$ENDCMP
+#
+$CMP TS42
+D TS42; ; Dongnan Electronics; ; Tact switch; ; VDC 12V - 50mA
+$ENDCMP
+#
+$CMP LP2985-XXDBVR01
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR12
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR15
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR18
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR25
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR27
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR28
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR30
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR33
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP LP2985-XXDBVR50
+D ULTRALOW-POWER 50-mA LOW-DROPOUT LINEAR REGULATORS; 50-mA Low-Dropout Regulator; Source: http://focus.ti.com/lit/ds/symlink/tps77001.pdf
+$ENDCMP
+#
+$CMP PN61729
+D BERG USB connector
+$ENDCMP
+#
+$CMP POWERSUPPLY_DC21MMX
+$ENDCMP
+#
+$CMP PINHD-1X8
+D PIN HEADER
+$ENDCMP
+#
+$CMP PINHD-1X10_ARD
+D PIN HEADER
+$ENDCMP
+#
+$CMP PINHD-1X10_ARD/90
+D PIN HEADER
+$ENDCMP
+#
+$CMP ATMEGA16U2-
+$ENDCMP
+#
+$CMP ATMEGA16U2-MU
+$ENDCMP
+#
+$CMP PINHD-2X2
+D PIN HEADER
+$ENDCMP
+#
+$CMP PINHD-2X2/90
+D PIN HEADER
+$ENDCMP
+#
+$CMP PINHD-2X3
+D PIN HEADER
+$ENDCMP
+#
+$CMP XTAL/S
+D CRYSTAL
+$ENDCMP
+#
+$CMP PINHD-2X18
+D PIN HEADER
+$ENDCMP
+#
+$CMP PINHD-2X18/90
+D PIN HEADER
+$ENDCMP
+#
+$CMP ATMEGA25601280-16AI
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA25601280V-8AI
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA25602560-16AI
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA25602560V-8AI
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA2560640-16AI
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA2560640V-8AI
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA25601280-16AU
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA25601280V-8AU
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA25602560-16AU
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA25602560V-8AU
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA2560640-16AU
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP ATMEGA2560640V-8AU
+D MICROCONTROLLER; 64/128/256 Kbytes FLASH; 4 Kbytes EEPROM; 8 Kbytes SRAM; 86 General Purpose I/O pins; 12-channels16-bit PWM; 4 x Serial USARTs; 16-channels 10-bit A/D
+$ENDCMP
+#
+$CMP DISCLAIMER
+$ENDCMP
+#
+#End Library

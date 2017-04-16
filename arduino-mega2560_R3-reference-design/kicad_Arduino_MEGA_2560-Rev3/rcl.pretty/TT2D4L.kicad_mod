@@ -1,0 +1,190 @@
+(module TT2D4L
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "ELECTROLYTIC CAPACITOR; diameter 4 mm, grid 2.54 mm")
+ (fp_text reference >NAME
+  (at -3.175000 -4.692953 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.143000 -7.946571 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user TT
+  (at 1.409700 -2.532743 90.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 0.990600 0.990600)
+    (thickness 0.118872)
+   )
+  )
+ )
+ (fp_line
+  (start 2.159000 -7.747000)
+  (end 2.159000 -1.651000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.524000 -1.016000)
+  (end 1.524000 -1.016000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start -1.524000 -1.651000)
+  (end -2.159000 -1.651000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 1.524000 -1.651000)
+  (end 1.524000 -1.016000)
+  (angle -90.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.270000 -2.540000)
+  (end -0.635000 -2.540000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.635000 -2.540000)
+  (end -0.635000 -1.651000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.635000 -1.651000)
+  (end -0.304800 -1.651000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.304800 -1.651000)
+  (end -0.304800 -3.429000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.304800 -3.429000)
+  (end -0.635000 -3.429000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.635000 -3.429000)
+  (end -0.635000 -2.540000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 0.254000 -2.540000)
+  (end 0.762000 -2.540000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.778000 -3.429000)
+  (end -1.016000 -3.429000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.397000 -3.810000)
+  (end -1.397000 -3.048000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -2.159000 -7.747000)
+  (end -2.159000 -1.651000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_arc
+  (start 0.000000 -7.747000)
+  (end -2.159000 -7.747000)
+  (angle 180.000000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy -1.651000 -1.016000)
+   (xy -0.889000 -1.016000)
+   (xy -0.889000 -0.635000)
+   (xy -1.651000 -0.635000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.889000 -1.016000)
+   (xy 1.651000 -1.016000)
+   (xy 1.651000 -0.635000)
+   (xy 0.889000 -0.635000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.889000 -0.635000)
+   (xy 1.651000 -0.635000)
+   (xy 1.651000 0.127000)
+   (xy 0.889000 0.127000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -1.651000 -0.635000)
+   (xy -0.889000 -0.635000)
+   (xy -0.889000 0.127000)
+   (xy -1.651000 0.127000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 0.000000 -3.479800)
+   (xy 0.431800 -3.479800)
+   (xy 0.431800 -1.600200)
+   (xy 0.000000 -1.600200)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad - thru_hole circle
+  (at 1.270000 0.000000 0.000000)
+  (size 1.600200 1.600200)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+ (pad + thru_hole circle
+  (at -1.270000 0.000000 0.000000)
+  (size 1.600200 1.600200)
+  (drill 0.812800)
+  (layers *.Cu B.Mask F.Mask)
+ )
+)

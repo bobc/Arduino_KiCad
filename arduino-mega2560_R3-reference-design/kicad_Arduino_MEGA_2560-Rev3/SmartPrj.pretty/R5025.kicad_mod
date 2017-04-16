@@ -1,0 +1,115 @@
+(module R5025
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "RESISTOR; chip")
+ (fp_text reference >NAME
+  (at 1.136953 -2.286000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.469572 2.286000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -1.662000 -1.245000)
+  (end 1.662000 -1.245000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.637000 1.245000)
+  (end 1.687000 1.245000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -3.473000 -1.483000)
+  (end 3.473000 -1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.473000 -1.483000)
+  (end 3.473000 1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.473000 1.483000)
+  (end -3.473000 1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -3.473000 1.483000)
+  (end -3.473000 -1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -0.900000 -1.245000)
+  (end 0.900000 -1.245000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -0.875000 1.245000)
+  (end 0.925000 1.245000)
+  (layer F.SilkS)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy -2.489200 -1.329200)
+   (xy -1.639300 -1.329200)
+   (xy -1.639300 1.320800)
+   (xy -2.489200 1.320800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 1.651000 -1.329200)
+   (xy 2.500900 -1.329200)
+   (xy 2.500900 1.320800)
+   (xy 1.651000 1.320800)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -0.500100 -1.000000)
+   (xy 0.500100 -1.000000)
+   (xy 0.500100 1.000000)
+   (xy -0.500100 1.000000)
+  )
+  (layer F.Adhes)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -2.200000 0.000000 0.000000)
+  (size 1.800000 2.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 2.200000 0.000000 0.000000)
+  (size 1.800000 2.700000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

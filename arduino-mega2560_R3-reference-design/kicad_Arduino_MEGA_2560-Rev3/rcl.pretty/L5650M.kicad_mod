@@ -1,0 +1,107 @@
+(module L5650M
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "INDUCTOR; molded")
+ (fp_text reference >NAME
+  (at 1.390953 -3.810000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.723572 3.810000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -3.973000 -2.983000)
+  (end 3.973000 -2.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.973000 2.983000)
+  (end -3.973000 2.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -3.973000 2.983000)
+  (end -3.973000 -2.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.973000 -2.983000)
+  (end 3.973000 2.983000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.108000 2.591000)
+  (end 2.083000 2.591000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.083000 -2.591000)
+  (end -2.108000 -2.591000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.184000 -2.032000)
+  (end 2.184000 2.032000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -2.210000 -2.032000)
+  (end -2.210000 2.032000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -2.108000 -2.591000)
+  (end -2.108000 2.591000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.083000 -2.591000)
+  (end 2.083000 2.591000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy -0.500100 -1.000000)
+   (xy 0.500100 -1.000000)
+   (xy 0.500100 1.000000)
+   (xy -0.500100 1.000000)
+  )
+  (layer F.Adhes)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -2.500000 0.000000 0.000000)
+  (size 1.800000 4.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 2.500000 0.000000 0.000000)
+  (size 1.800000 4.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

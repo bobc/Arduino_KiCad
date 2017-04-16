@@ -1,0 +1,113 @@
+(module L3225P
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "INDUCTOR; precision wire wound")
+ (fp_text reference >NAME
+  (at 1.390953 -2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 1.723572 2.540000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -2.473000 -1.483000)
+  (end 2.473000 -1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.473000 1.483000)
+  (end -2.473000 1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -2.473000 1.483000)
+  (end -2.473000 -1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.676000 -0.845000)
+  (end 1.676000 -0.845000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 2.473000 -1.483000)
+  (end 2.473000 1.483000)
+  (layer F.CrtYd)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -1.676000 -0.838000)
+  (end -1.676000 0.838000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start -1.168000 -0.838000)
+  (end -1.168000 0.838000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.168000 -0.838000)
+  (end 1.168000 0.838000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.676000 -0.838000)
+  (end 1.676000 0.838000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_line
+  (start 1.676000 0.845000)
+  (end -1.676000 0.845000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (fp_poly
+  (pts
+   (xy -0.300000 -0.700000)
+   (xy 0.300000 -0.700000)
+   (xy 0.300000 0.700000)
+   (xy -0.300000 0.700000)
+  )
+  (layer F.Adhes)
+  (width 0.000000)
+ )
+ (fp_circle
+  (center 0.000000 0.000000)
+  (end 0.711700 0.000000)
+  (layer F.Fab)
+  (width 0.152400)
+ )
+ (pad 1 smd rect
+  (at -1.400000 0.000000 0.000000)
+  (size 1.800000 2.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 1.400000 0.000000 0.000000)
+  (size 1.800000 2.000000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

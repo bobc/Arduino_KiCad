@@ -1,0 +1,96 @@
+(module DISCLAIMER
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (fp_text reference Ref
+  (at 0.000000 0.000000 0.000000)
+  (layer F.SilkS)
+ hide
+  (effects
+   (font
+    (size 1.500000 1.500000)
+    (thickness 0.150000)
+   )
+  )
+ )
+ (fp_text value Val
+  (at 0.000000 0.000000 0.000000)
+  (layer F.Fab)
+ hide
+  (effects
+   (font
+    (size 1.500000 1.500000)
+    (thickness 0.150000)
+   )
+  )
+ )
+ (fp_text user "Reference Designs ARE PROVIDED \"AS IS\" AND \"WITH ALL FAULTS. Arduino DISCLAIMS ALL OTHER WARRANTIES, EXPRESS OR IMPLIED,"
+  (at 64.255940 -18.796000 0.000000)
+  (layer F.Cu)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user "REGARDING PRODUCTS, INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE"
+  (at 70.454760 -16.764000 0.000000)
+  (layer F.Cu)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user "Arduino may make changes to specifications and product descriptions at any time, without notice. The Customer must not"
+  (at 60.083100 -13.716000 0.000000)
+  (layer F.Cu)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user "rely on the absence or characteristics of any features or instructions marked \"reserved\" or \"undefined.\" Arduino reserves"
+  (at 59.750500 -11.684000 0.000000)
+  (layer F.Cu)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user "these for future definition and shall have no responsibility whatsoever for conflicts or incompatibilities arising from future changes to them."
+  (at 69.305730 -9.652000 0.000000)
+  (layer F.Cu)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user "The product information on the Web Site or Materials is subject to change without notice. Do not finalize a design with this information. "
+  (at 67.824050 -6.604000 0.000000)
+  (layer F.Cu)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.127000)
+   )
+  )
+ )
+ (fp_text user "ARDUINO is a registered trademark."
+  (at 22.791060 -3.759200 0.000000)
+  (layer F.Cu)
+  (effects
+   (font
+    (size 1.676400 1.676400)
+    (thickness 0.134112)
+   )
+  )
+ )
+)

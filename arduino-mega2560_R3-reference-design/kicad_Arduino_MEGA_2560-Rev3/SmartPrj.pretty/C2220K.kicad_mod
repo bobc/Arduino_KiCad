@@ -1,0 +1,69 @@
+(module C2220K
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr "Ceramic Chip Capacitor KEMET 2220 Reflow solder; Metric Code Size 5650")
+ (fp_text reference >NAME
+  (at -0.163238 -3.458000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.081280)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.102857 3.467000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.016000 1.016000)
+    (thickness 0.081280)
+   )
+  )
+ )
+ (fp_line
+  (start -2.725000 -2.425000)
+  (end 2.725000 -2.425000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 2.725000 2.425000)
+  (end -2.725000 2.425000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_poly
+  (pts
+   (xy -2.800000 -2.500000)
+   (xy -2.200000 -2.500000)
+   (xy -2.200000 2.500000)
+   (xy -2.800000 2.500000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 2.200000 -2.500000)
+   (xy 2.800000 -2.500000)
+   (xy 2.800000 2.500000)
+   (xy 2.200000 2.500000)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (pad 1 smd rect
+  (at -2.550000 0.000000 0.000000)
+  (size 1.850000 5.500000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad 2 smd rect
+  (at 2.550000 0.000000 0.000000)
+  (size 1.850000 5.500000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)

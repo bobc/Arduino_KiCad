@@ -1,0 +1,109 @@
+(module SMC
+ (layer F.Cu)
+ (at 0.000000 0.000000 0.000000)
+ (descr DIODE)
+ (fp_text reference >NAME
+  (at -0.163047 -3.994000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_text value >VALUE
+  (at 0.169571 3.994000 0.000000)
+  (layer F.SilkS)
+  (effects
+   (font
+    (size 1.270000 1.270000)
+    (thickness 0.101600)
+   )
+  )
+ )
+ (fp_line
+  (start -3.560600 -3.105000)
+  (end 3.560600 -3.105000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -3.560600 3.105000)
+  (end 3.560600 3.105000)
+  (layer F.SilkS)
+  (width 0.150000)
+ )
+ (fp_line
+  (start -3.560600 3.105000)
+  (end -3.560600 -3.105000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 3.560600 3.105000)
+  (end 3.560600 -3.105000)
+  (layer F.Fab)
+  (width 0.150000)
+ )
+ (fp_line
+  (start 0.543000 -1.000000)
+  (end -0.830000 0.000000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start -0.830000 0.000000)
+  (end 0.543000 1.000000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_line
+  (start 0.543000 1.000000)
+  (end 0.543000 -1.000000)
+  (layer F.SilkS)
+  (width 0.203200)
+ )
+ (fp_poly
+  (pts
+   (xy -4.094000 -1.092200)
+   (xy -3.560600 -1.092200)
+   (xy -3.560600 1.092200)
+   (xy -4.094000 1.092200)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy 3.560600 -1.092200)
+   (xy 4.094000 -1.092200)
+   (xy 4.094000 1.092200)
+   (xy 3.560600 1.092200)
+  )
+  (layer F.Fab)
+  (width 0.000000)
+ )
+ (fp_poly
+  (pts
+   (xy -2.100000 -3.100000)
+   (xy -0.850000 -3.100000)
+   (xy -0.850000 3.100000)
+   (xy -2.100000 3.100000)
+  )
+  (layer F.SilkS)
+  (width 0.000000)
+ )
+ (pad C smd rect
+  (at -3.700000 0.000000 0.000000)
+  (size 2.800000 3.800000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+ (pad A smd rect
+  (at 3.700000 0.000000 0.000000)
+  (size 2.800000 3.800000)
+  (drill 0.000000)
+  (layers F.Cu F.Mask F.Paste)
+ )
+)
